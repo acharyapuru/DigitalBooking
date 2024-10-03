@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "digitalbooking"
+version = "0.1.0"
+description = "Digital ticket booking system."
+authors = ["acharyapuru <acharyapuru@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
