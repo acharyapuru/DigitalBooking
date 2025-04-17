@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-07 17:34+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\DigitalBooking\settings.py:148
+msgid "English"
+msgstr "अंग्रेजी"
+
+#: .\DigitalBooking\settings.py:149
+msgid "Nepali"
+msgstr "नेपाली"
+
+#: .\DigitalBooking\settings.py:150
+msgid "Hindi"
+msgstr "हिन्दी"
+
+#: .\movie\models.py:10
+msgid "Category Name"
+msgstr "कोटी नाम"
+
+#: .\movie\models.py:15
+msgid "Category Slug"
+msgstr "कोटी स्लग"
+
+#: .\movie\models.py:24 .\movie\models.py:49
+msgid "Movie Genre"
+msgstr "चलचित्रको प्रकार"
+
+#: .\movie\models.py:25
+#, fuzzy
+#| msgid "Movie Genre"
+msgid "Movie Genres"
+msgstr "चलचित्रको प्रकार"
+
+#: .\movie\models.py:36 .\movie\models.py:164
+msgid "Movie Name"
+msgstr "चलचित्रको नाम"
+
+#: .\movie\models.py:41
+msgid "Movie Slug"
+msgstr "चलचित्र स्लग"
+
+#: .\movie\models.py:54
+msgid "Movie Thumbnail"
+msgstr "चलचित्र थम्बनेल"
+
+#: .\movie\models.py:59
+msgid "Movie Language"
+msgstr "चलचित्रको भाषा"
+
+#: .\movie\models.py:64
+msgid "Movie Casts"
+msgstr "चलचित्रमा कलाकारहरू"
+
+#: .\movie\models.py:69
+msgid "Movie Director"
+msgstr "चलचित्र निर्देशक"
+
+#: .\movie\models.py:74
+msgid "Movie Duration"
+msgstr "चलचित्रको अवधि"
+
+#: .\movie\models.py:78
+msgid "Release Date"
+msgstr "प्रदर्शन मिति"
+
+#: .\movie\models.py:82
+msgid "Movie Description"
+msgstr "चलचित्रको विवरण"
+
+#: .\movie\models.py:90
+msgid "Movie Trailer"
+msgstr "चलचित्र ट्रेलर"
+
+#: .\movie\models.py:103
+msgid "Is Shown"
+msgstr "प्रदर्शन गरिएको छ"
+
+#: .\movie\models.py:111 .\payment\models.py:72
+#, fuzzy
+#| msgid "Movie Name"
+msgid "Movie"
+msgstr "चलचित्रको नाम"
+
+#: .\movie\models.py:112 .\services\models.py:8
+#, fuzzy
+#| msgid "Movie Casts"
+msgid "Movies"
+msgstr "चलचित्रमा कलाकारहरू"
+
+#: .\movie\models.py:124 .\movie\models.py:170 .\movie\models.py:238
+msgid "Theater Name"
+msgstr "सिनेमा हलको नाम"
+
+#: .\movie\models.py:129
+msgid "Theater Slug"
+msgstr "सिनेमा हल स्लग"
+
+#: .\movie\models.py:136
+msgid "Theater Location"
+msgstr "सिनेमा हलको स्थान"
+
+#: .\movie\models.py:141
+msgid "Theater Phone"
+msgstr "सिनेमा हलको फोन"
+
+#: .\movie\models.py:155
+#, fuzzy
+#| msgid "Theater Name"
+msgid "Theater"
+msgstr "सिनेमा हलको नाम"
+
+#: .\movie\models.py:156
+#, fuzzy
+#| msgid "Theater Name"
+msgid "Theaters"
+msgstr "सिनेमा हलको नाम"
+
+#: .\movie\models.py:174 .\movie\models.py:186 .\movie\models.py:195
+msgid "Show Day"
+msgstr "प्रदर्शन दिन"
+
+#: .\movie\models.py:179 .\movie\models.py:204
+msgid "Is Trashed"
+msgstr ""
+
+#: .\movie\models.py:187
+#, fuzzy
+#| msgid "Show Day"
+msgid "Show Days"
+msgstr "प्रदर्शन दिन"
+
+#: .\movie\models.py:199 .\movie\models.py:209 .\movie\models.py:271
+#: .\payment\models.py:80
+msgid "Show Time"
+msgstr "प्रदर्शन समय"
+
+#: .\movie\models.py:210
+#, fuzzy
+#| msgid "Show Time"
+msgid "Show Times"
+msgstr "प्रदर्शन समय"
+
+#: .\movie\models.py:218 .\movie\models.py:230 .\movie\models.py:244
+#, fuzzy
+#| msgid "Service Type"
+msgid "Seat Type"
+msgstr "सेवाको प्रकार"
+
+#: .\movie\models.py:223
+#, fuzzy
+#| msgid "Service"
+msgid "Price"
+msgstr "सेवा"
+
+#: .\movie\models.py:231
+#, fuzzy
+#| msgid "Seats"
+msgid "Seat Types"
+msgstr "सिटहरू"
+
+#: .\movie\models.py:249
+msgid "Row"
+msgstr "पङ्क्ति"
+
+#: .\movie\models.py:254
+msgid "Number"
+msgstr "संख्या"
+
+#: .\movie\models.py:262 .\movie\models.py:278
+msgid "Seat"
+msgstr "सिट"
+
+#: .\movie\models.py:263 .\payment\models.py:85
+msgid "Seats"
+msgstr "सिटहरू"
+
+#: .\movie\models.py:286 .\payment\models.py:54 .\user\models.py:56
+msgid "User"
+msgstr "प्रयोगकर्ता"
+
+#: .\movie\models.py:290
+msgid "Is Booked"
+msgstr "बुक गरिएको छ"
+
+#: .\movie\models.py:295
+#, fuzzy
+#| msgid "Is Booked"
+msgid "Is Locked"
+msgstr "बुक गरिएको छ"
+
+#: .\movie\models.py:305
+msgid "Locked By"
+msgstr ""
+
+#: .\movie\models.py:309
+msgid "Lock Expires At"
+msgstr ""
+
+#: .\movie\models.py:316
+msgid "Booking"
+msgstr "बुकिङ"
+
+#: .\movie\models.py:317
+msgid "Bookings"
+msgstr "बुकिङहरू"
+
+#: .\movie\templates\movie\movies.html:16
+#, fuzzy
+#| msgid "Is Shown"
+msgid "Now Showing"
+msgstr "प्रदर्शन गरिएको"
+
+#: .\movie\templates\movie\movies.html:36
+msgid "Next Releases"
+msgstr "अर्को रिलीजहरू"
+
+#: .\movie\templates\movie\movies.html:57
+msgid "No upcomming movies"
+msgstr "कुनै आगामी चलचित्रहरू छैनन्"
+
+#: .\payment\models.py:13 .\payment\models.py:38 .\payment\models.py:60
+msgid "Payment Method"
+msgstr "भुक्तानी विधि"
+
+#: .\payment\models.py:18
+msgid "Payment Method Slug"
+msgstr ""
+
+#: .\payment\models.py:25
+msgid "Payment Method Logo"
+msgstr ""
+
+#: .\payment\models.py:39
+msgid "Payment Methods"
+msgstr ""
+
+#: .\payment\models.py:48
+msgid "UUID"
+msgstr ""
+
+#: .\payment\models.py:66
+msgid "Amount"
+msgstr ""
+
+#: .\payment\models.py:90
+msgid "Is Paid"
+msgstr ""
+
+#: .\payment\models.py:95
+msgid "Created At"
+msgstr ""
+
+#: .\payment\models.py:102
+#, fuzzy
+#| msgid "Movie Name"
+msgid "Movie Ticket Payment"
+msgstr "चलचित्रको नाम"
+
+#: .\payment\models.py:103
+msgid "Movie Ticket Payments"
+msgstr "चलचित्र टिकट भुक्तानी"
+
+#: .\services\models.py:9
+msgid "Flights"
+msgstr "उडानहरू"
+
+#: .\services\models.py:10
+msgid "Buses"
+msgstr "बसहरू"
+
+#: .\services\models.py:11
+msgid "Cable Cars"
+msgstr "केबल कारहरू"
+
+#: .\services\models.py:16
+#, fuzzy
+#| msgid "Movie Name"
+msgid "Service Name"
+msgstr "सेवाको नाम"
+
+#: .\services\models.py:20
+msgid "Service Type"
+msgstr "सेवाको प्रकार"
+
+#: .\services\models.py:41
+msgid "Service"
+msgstr "सेवा"
+
+#: .\services\models.py:42
+msgid "Services"
+msgstr "सेवाहरू"
+
+#: .\templates\index.html:18
+msgid "Book Your Tickets Effortlessly"
+msgstr "आफ्नो टिकट सहजै बुक गर्नुहोस्"
+
+#: .\templates\index.html:19
+msgid ""
+"Easily book movie, plane, and bus tickets from the comfort of your home."
+msgstr "आफ्नो घरको आरामबाट सजिलै चलचित्र, विमान, र बस टिकट बुक गर्नुहोस्।"
+
+#: .\templates\index.html:22
+#, fuzzy
+#| msgid "Movie Casts"
+msgid "Explore Movies"
+msgstr "चलचित्रमा कलाकारहरू"
+
+#: .\templates\index.html:26
+#, fuzzy
+#| msgid "Flights"
+msgid "Book Flights"
+msgstr "उडानहरू"
+
+#: .\templates\index.html:30
+msgid "Book Bus Tickets"
+msgstr "बस टिकट बुक गर्नुहोस्"
+
+#: .\templates\index.html:56
+msgid "Coming Soon"
+msgstr "चाँडै आउँदैछ"
+
+#: .\user\models.py:9 .\user\models.py:18
+msgid "The Email field must be set"
+msgstr ""
+
+#: .\user\models.py:43
+msgid "Email Address"
+msgstr ""
+
+#: .\user\models.py:57
+#, fuzzy
+#| msgid "User"
+msgid "Users"
+msgstr "प्रयोगकर्ता"

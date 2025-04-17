@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %} Movies {% endblock title %}
+
+{% block main %}
+    <div class="container">
+        <div class="carousel-container">
+            {% for movie in now_showing_movies %}
+            <div class="carousel-item {% if forloop.first %} active {% endif %} ">
+                <img src="{{movie.thumbnail.url}}" alt="Movie 1">
+            </div>
+            {% endfor %}
+        </div>
+        <div class="now-showing">
+            <h2 class="py-4" style="font-size:36px; font-family: Akrobat, sans-serif;">{% trans "Now Showing" %}</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+                {% for movie in now_showing_movies %}
+                <div class="col">
+                    <div class="card position-relative movie-card">
+                        <a href="{% url 'movie:movie_detail' movie.slug %}" class="text-decoration-none stretched-link">
+                            <img src="{{ movie.thumbnail.url }}" alt="{{ movie.name }}" class="img-fluid w-100" style="height: 100%; object-fit: cover; border-radius: 21px 21px 0 0;">
+                        </a>
+                    </div>
+                    <div class="now-showing-info">
+                        <div class="showing-title">
+                            <h4>{{ movie.name | upper}}</h4>
+                        </div>
+                        <p class="run-time">{{movie.duration | upper}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="next-releases mt-5">
+            <h2 class="py-4" style="font-size:36px; font-family: Akrobat, sans-serif;">{% trans "Next Releases" %}</h1>
+            {% if upcomming_movies %}
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+                    {% for movie in upcomming_movies %}
+                    <div class="col">
+                        <div class="card position-relative movie-card">
+                            <a href="{% url 'movie:movie_detail' movie.slug %}" class="text-decoration-none stretched-link">
+                                <img src="{{ movie.thumbnail.url }}" alt="{{ movie.name }}" class="img-fluid w-100" style="height: 100%; object-fit: cover; border-radius: 21px 21px 0 0;">
+                            </a>
+                        </div>
+                        <div class="now-showing-info">
+                            <div class="showing-title">
+                                <h4>{{ movie.name | upper}}</h4>
+                            </div>
+                            <p class="run-time">{{movie.duration | upper}}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="alert alert-info" role="alert" style="margin-right: -15rem;">
+                    {% trans "No upcomming movies" %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    <script>
+            // JavaScript for Autoplay Carousel
+            let currentIndex = 0;
+            const items = document.querySelectorAll('.carousel-item');
+            const totalItems = items.length;
+    
+            function showItem(index) {
+                items[currentIndex].classList.remove('active');
+                currentIndex = (index + totalItems) % totalItems; // Loop around
+                items[currentIndex].classList.add('active');
+            }
+    
+            // Automatic carousel movement
+            setInterval(() => {
+                showItem(currentIndex + 1);
+            }, 3000); // Change every 3 seconds
+    
+    </script>
+{% endblock main %}

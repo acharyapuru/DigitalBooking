@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Payment Status{% endblock title %}
+
+{% block main %}
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-header">
+                        Payment Status
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Transaction Id: {{txn_id}} </h5>
+                        <div class="alert alert-success" role="alert">
+                            Payment Status: {{status}}
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item">Transaction Id: {{txn_id}}</li>
+                            <li class="list-group-item">Amount: {{total_amount}}</li>
+                        </ul>
+                        <a href="/" class="btn btn-primary mt-3">Go to Dashboard</a>
+                        {% if status == "Completed" %}
+                            <a href="{% url 'payment:print-ticket' txn_id %}" class="btn btn-success mt-3 mx-2">Print Ticket</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock main %}

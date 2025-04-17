@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+        .theater-info {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .ticket-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .total-row {
+            font-weight: bold;
+        }
+        .movie-info .movie-meta{
+            margin-top: 15px;
+            margin-bottom: 10px;
+            line-height: 0.5;
+        }
+    </style>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="border-dark">
+            <div class="theater-info">
+                <p>{{theater}}</p>
+                <p>{{theater_address}}</p>
+            </div>
+            <hr>
+            <div class="movie-info">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="{{movie_thumbnail_url}}" alt="movie" class="img-fluid">
+                    </div>
+                    <div class="col-5 offset-1">
+                        <h3 style="font-weight:bolder; font-size:22px;">{{movie_name}}</h3>
+                        <div class="movie-meta">
+                            <p>{{movie_duration}}</p>
+                            <p>{{show_date}}</p>
+                            <p>{{show_time}}</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img src="data:image/png;base64,{{ qr_code_base64 }}" alt="QR Code" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="seat-info text-center">
+                <p><strong>Seats:</strong> {{no_of_seats}}&nbsp;&nbsp;{{seats}}</p>
+            </div>
+            <hr>
+            <div class="ticket-info">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Ticket Type</th>
+                            <th scope="col">Qty</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Total Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for seat_type, info in seat_info.items %}
+                        <tr>
+                            <td>{{ seat_type }}</td>
+                            <td>{{ info.quantity }}x</td>
+                            <td>{{ info.price_per_ticket }}</td>
+                            <td>{{ info.total_price }}</td>
+                        </tr>
+                        {% endfor %}
+                        <tr class="total-row">
+                            <td colspan="3" class="text-right text-bold">Grand Total(incl. of 13% VAT - NPR 40.27)</td>
+                            <td><strong>NPR. {{total_amount}}</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            <div class="transaction-id text-center">
+                <p>Transaction ID: {{transaction_id}}</p>
+            </div>
+            <hr>
+            <div class="instruction">
+                <h3 class="text-center text-dark" style="font-weight: bold;">IMPORTANT INSTRUCTION</h3>
+                <pre>
+                    All sales are final - No Refunds or Exchanges possible
+                        Keep ticket until the end of the show
+                      Please follow internal rules of the theater
+                    Please check the time and date of the show
+                </pre>
+            </div>
+            <hr>
+            <div class="transaction-details text-center">
+                <h3 class="text-center text-dark" style="font-weight: bold;">Transaction Details</h3>
+                <p>{{transaction_date}}</p>
+                <p>Payment Method: {{transaction_method}}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

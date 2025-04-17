@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-21 20:55+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\DigitalBooking\settings.py:138
+msgid "English"
+msgstr "अंग्रेज़ी"
+
+#: .\DigitalBooking\settings.py:139
+msgid "Nepali"
+msgstr "नेपाली"
+
+#: .\DigitalBooking\settings.py:140
+msgid "Hindi"
+msgstr "हिंदी"
+
+#: .\movie\models.py:10
+msgid "Category Name"
+msgstr "श्रेणी का नाम"
+
+#: .\movie\models.py:15
+msgid "Category Slug"
+msgstr "श्रेणी स्लग"
+
+#: .\movie\models.py:24 .\movie\models.py:49
+msgid "Movie Genre"
+msgstr "फ़िल्म की शैली"
+
+#: .\movie\models.py:25
+#, fuzzy
+#| msgid "Movie Genre"
+msgid "Movie Genres"
+msgstr "फ़िल्म की शैली"
+
+#: .\movie\models.py:36 .\movie\models.py:164
+msgid "Movie Name"
+msgstr "फ़िल्म का नाम"
+
+#: .\movie\models.py:41
+msgid "Movie Slug"
+msgstr "फ़िल्म स्लग"
+
+#: .\movie\models.py:54
+msgid "Movie Thumbnail"
+msgstr "फ़िल्म का थंबनेल"
+
+#: .\movie\models.py:59
+msgid "Movie Language"
+msgstr "फ़िल्म की भाषा"
+
+#: .\movie\models.py:64
+msgid "Movie Casts"
+msgstr "फ़िल्म के कलाकार"
+
+#: .\movie\models.py:69
+msgid "Movie Director"
+msgstr "फ़िल्म निर्देशक"
+
+#: .\movie\models.py:74
+msgid "Movie Duration"
+msgstr "फ़िल्म की अवधि"
+
+#: .\movie\models.py:78
+msgid "Release Date"
+msgstr "रिलीज़ की तारीख"
+
+#: .\movie\models.py:82
+msgid "Movie Description"
+msgstr "फ़िल्म का विवरण"
+
+#: .\movie\models.py:90
+msgid "Movie Trailer"
+msgstr "फ़िल्म का ट्रेलर"
+
+#: .\movie\models.py:103
+msgid "Is Shown"
+msgstr "दिखाया गया है"
+
+#: .\movie\models.py:111
+#, fuzzy
+#| msgid "Movie Name"
+msgid "Movie"
+msgstr "फ़िल्म का नाम"
+
+#: .\movie\models.py:112 .\services\models.py:8
+#, fuzzy
+#| msgid "Movie Casts"
+msgid "Movies"
+msgstr "फ़िल्म के कलाकार"
+
+#: .\movie\models.py:124 .\movie\models.py:170 .\movie\models.py:211
+msgid "Theater Name"
+msgstr "सिनेमा हॉल का नाम"
+
+#: .\movie\models.py:129
+msgid "Theater Slug"
+msgstr "सिनेमा हॉल स्लग"
+
+#: .\movie\models.py:136
+msgid "Theater Location"
+msgstr "सिनेमा हॉल का स्थान"
+
+#: .\movie\models.py:141
+msgid "Theater Phone"
+msgstr "सिनेमा हॉल का फोन"
+
+#: .\movie\models.py:155
+#, fuzzy
+#| msgid "Theater Name"
+msgid "Theater"
+msgstr "सिनेमा हॉल का नाम"
+
+#: .\movie\models.py:156
+#, fuzzy
+#| msgid "Theater Name"
+msgid "Theaters"
+msgstr "सिनेमा हॉल का नाम"
+
+#: .\movie\models.py:174 .\movie\models.py:181 .\movie\models.py:190
+msgid "Show Day"
+msgstr "प्रदर्शन दिन"
+
+#: .\movie\models.py:182
+#, fuzzy
+#| msgid "Show Day"
+msgid "Show Days"
+msgstr "प्रदर्शन दिन"
+
+#: .\movie\models.py:194 .\movie\models.py:199 .\movie\models.py:237
+msgid "Show Time"
+msgstr "प्रदर्शन समय"
+
+#: .\movie\models.py:200
+#, fuzzy
+#| msgid "Show Time"
+msgid "Show Times"
+msgstr "प्रदर्शन समय"
+
+#: .\movie\models.py:215
+msgid "Row"
+msgstr "पंक्ति"
+
+#: .\movie\models.py:220
+msgid "Number"
+msgstr "संख्या"
+
+#: .\movie\models.py:228 .\movie\models.py:244
+msgid "Seat"
+msgstr "सीट"
+
+#: .\movie\models.py:229
+msgid "Seats"
+msgstr "सीटें"
+
+#: .\movie\models.py:252
+msgid "User"
+msgstr "उपयोगकर्ता"
+
+#: .\movie\models.py:256
+msgid "Is Booked"
+msgstr "बुक किया गया है"
+
+#: .\movie\models.py:262
+msgid "Booking"
+msgstr "बुकिंग"
+
+#: .\movie\models.py:263
+msgid "Bookings"
+msgstr "बुकिंग्स"
+
+#: .\services\models.py:9
+msgid "Flights"
+msgstr "उड़ानें"
+
+#: .\services\models.py:10
+msgid "Buses"
+msgstr "बसें"
+
+#: .\services\models.py:11
+msgid "Cable Cars"
+msgstr "केबल कारें"
+
+#: .\services\models.py:16
+#, fuzzy
+#| msgid "Movie Name"
+msgid "Service Name"
+msgstr "सेवा का नाम"
+
+#: .\services\models.py:20
+msgid "Service Type"
+msgstr "सेवा प्रकार"
+
+#: .\services\models.py:41
+msgid "Service"
+msgstr "सेवा"
+
+#: .\services\models.py:42
+msgid "Services"
+msgstr "सेवाएँ"

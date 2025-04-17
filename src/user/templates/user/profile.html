@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %} Profile {% endblock title %}
+
+{% block main %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img src="{{ profile.profile_picture.url }}" class="img-fluid rounded-circle" alt="Profile Picture" style="width: 250px; height: 250px;">
+                                <div class="mt-2"> 
+                                    <h4>{{ profile.email }}</h4>
+                                    <h4>{{ profile.phone }} <a href="#"><i class="fas fa-edit"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row text-center mt-3 reward-section">
+                        <div class="col-sm d-flex flex-column">
+                            <h4>Gems</h4>
+                            {% if gems %}
+                                <a href="#"><h4>{{ gems }}</h4></a>
+                            {% else %}
+                                <h4>0</h4>
+                            {% endif %}
+                        </div>
+                        <div class="col-sm d-flex flex-column">
+                            <h4>Points</h4>
+                            {% if points %}
+                                <a href="#"><h4>{{ points }}</h4></a>
+                            {% else %}
+                                <h4>0</h4>
+                            {% endif %}
+                        </div>
+                        <div class="col-sm d-flex flex-column">
+                            <h4>Coupons</h4>
+                            {% if coupons %}
+                                <a href="#"><h4>{{ coupons }}</h4></a>
+                            {% else %}
+                                <h4>0</h4>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock main %}

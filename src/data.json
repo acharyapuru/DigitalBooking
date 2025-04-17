@@ -1,0 +1,4249 @@
+[
+    {
+      "model": "admin.logentry",
+      "pk": 1,
+      "fields": {
+        "action_time": "2024-10-14T13:37:15.006Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Drama",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 2,
+      "fields": {
+        "action_time": "2024-10-14T13:38:22.055Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Social Drama",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 3,
+      "fields": {
+        "action_time": "2024-10-14T13:38:31.243Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Chakka Panja 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 4,
+      "fields": {
+        "action_time": "2024-10-14T13:39:40.712Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Action",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 5,
+      "fields": {
+        "action_time": "2024-10-14T13:40:49.100Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "12 Gaun",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 6,
+      "fields": {
+        "action_time": "2024-10-14T13:42:52.770Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Jwai Saab",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 7,
+      "fields": {
+        "action_time": "2024-10-14T13:44:40.887Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Behuli From Meghauli",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 8,
+      "fields": {
+        "action_time": "2024-10-14T13:45:26.345Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Bus Ticket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 9,
+      "fields": {
+        "action_time": "2024-10-14T13:45:48.222Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Flight Ticket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 10,
+      "fields": {
+        "action_time": "2024-10-14T13:46:14.941Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Movie Ticket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 11,
+      "fields": {
+        "action_time": "2024-10-14T13:46:38.653Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Cable Car Ticket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 12,
+      "fields": {
+        "action_time": "2024-10-14T13:53:22.220Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 13,
+      "fields": {
+        "action_time": "2024-10-14T13:55:17.112Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 14,
+      "fields": {
+        "action_time": "2024-10-14T13:55:53.918Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 15,
+      "fields": {
+        "action_time": "2024-10-14T13:56:33.709Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Row A, Seat 1 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 16,
+      "fields": {
+        "action_time": "2024-10-14T13:56:43.217Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Row A, Seat 2 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 17,
+      "fields": {
+        "action_time": "2024-10-14T13:57:22.015Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Row B, Seat 10 at Bishowjyoti",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Row\", \"Number\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 18,
+      "fields": {
+        "action_time": "2024-10-14T13:57:58.499Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Chakka Panja 5 at Bishowjyoti on Sunday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 19,
+      "fields": {
+        "action_time": "2024-10-14T13:58:10.480Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Chakka Panja 5 at Bishowjyoti on Monday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 20,
+      "fields": {
+        "action_time": "2024-10-14T13:58:25.362Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Chakka Panja 5 at Bishowjyoti on Tuesday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 21,
+      "fields": {
+        "action_time": "2024-10-14T13:59:09.521Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Chakka Panja 5 at 06:00:00 on Sunday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 22,
+      "fields": {
+        "action_time": "2024-10-14T13:59:22.070Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Chakka Panja 5 at 18:00:00 on Sunday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 23,
+      "fields": {
+        "action_time": "2024-10-14T13:59:29.409Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Chakka Panja 5 at 19:44:27 on Sunday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 24,
+      "fields": {
+        "action_time": "2024-10-14T13:59:47.485Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Chakka Panja 5 at 12:00:00 on Monday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 25,
+      "fields": {
+        "action_time": "2024-10-14T13:59:58.429Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Chakka Panja 5 at 18:00:00 on Monday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 26,
+      "fields": {
+        "action_time": "2024-10-15T07:42:11.389Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Behuli From Meghauli at Bishowjyoti on Sunday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 27,
+      "fields": {
+        "action_time": "2024-10-15T07:42:21.076Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Behuli From Meghauli at Bishowjyoti on Monday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 28,
+      "fields": {
+        "action_time": "2024-10-15T07:42:34.781Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Behuli From Meghauli at Bishowjyoti on Tuesday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 29,
+      "fields": {
+        "action_time": "2024-10-15T07:42:44.938Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Behuli From Meghauli at Bishowjyoti on Wednesday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 30,
+      "fields": {
+        "action_time": "2024-10-15T07:42:56.292Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Behuli From Meghauli at Bishowjyoti on Thursday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 31,
+      "fields": {
+        "action_time": "2024-10-15T07:43:04.630Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Behuli From Meghauli at Bishowjyoti on Friday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 32,
+      "fields": {
+        "action_time": "2024-10-15T07:43:13.081Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "Behuli From Meghauli at Bishowjyoti on Saturday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 33,
+      "fields": {
+        "action_time": "2024-10-15T07:54:05.805Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Bishowjyoti",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 34,
+      "fields": {
+        "action_time": "2024-10-15T07:54:44.836Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 35,
+      "fields": {
+        "action_time": "2024-10-15T07:56:22.150Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "12 Gaun at Guna Cinema on 2024-10-15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 36,
+      "fields": {
+        "action_time": "2024-10-15T07:56:35.056Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "12 Gaun at Guna Cinema on 2024-10-16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 37,
+      "fields": {
+        "action_time": "2024-10-15T07:56:49.257Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "12 Gaun at Guna Cinema on 2024-10-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 38,
+      "fields": {
+        "action_time": "2024-10-15T07:56:57.379Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "12 Gaun at Guna Cinema on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 39,
+      "fields": {
+        "action_time": "2024-10-15T07:57:04.665Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "12 Gaun at Gopi Krishna Cinema on 2024-10-15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 40,
+      "fields": {
+        "action_time": "2024-10-15T07:57:13.299Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "12 Gaun at Gopi Krishna Cinema on 2024-10-16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 41,
+      "fields": {
+        "action_time": "2024-10-15T07:57:23.139Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "12 Gaun at Gopi Krishna Cinema on 2024-10-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 42,
+      "fields": {
+        "action_time": "2024-10-15T07:57:30.508Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Chakka Panja 5 at Guna Cinema on 2024-10-15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 43,
+      "fields": {
+        "action_time": "2024-10-15T07:57:39.853Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Chakka Panja 5 at Guna Cinema on 2024-10-16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 44,
+      "fields": {
+        "action_time": "2024-10-15T07:57:47.346Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "Chakka Panja 5 at Guna Cinema on 2024-10-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 45,
+      "fields": {
+        "action_time": "2024-10-15T07:57:55.900Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "Chakka Panja 5 at Guna Cinema on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 46,
+      "fields": {
+        "action_time": "2024-10-15T07:58:10.340Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "Chakka Panja 5 at Bishowjyoti on 2024-10-15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 47,
+      "fields": {
+        "action_time": "2024-10-15T07:58:17.749Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "Chakka Panja 5 at Bishowjyoti on 2024-10-16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 48,
+      "fields": {
+        "action_time": "2024-10-15T07:58:25.946Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "Jwai Saab at Guna Cinema on 2024-10-15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 49,
+      "fields": {
+        "action_time": "2024-10-15T07:58:36.210Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "Jwai Saab at Guna Cinema on 2024-10-16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 50,
+      "fields": {
+        "action_time": "2024-10-15T07:58:42.504Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "Jwai Saab at Gopi Krishna Cinema on 2024-10-15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 51,
+      "fields": {
+        "action_time": "2024-10-15T07:58:49.498Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "17",
+        "object_repr": "Jwai Saab at Gopi Krishna Cinema on 2024-10-16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 52,
+      "fields": {
+        "action_time": "2024-10-15T07:58:56.668Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Jwai Saab at Bishowjyoti on 2024-10-15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 53,
+      "fields": {
+        "action_time": "2024-10-15T07:59:04.281Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Jwai Saab at Bishowjyoti on 2024-10-16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 54,
+      "fields": {
+        "action_time": "2024-10-15T07:59:45.918Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "20",
+        "object_repr": "12 Gaun at Bishowjyoti on 2024-10-15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 55,
+      "fields": {
+        "action_time": "2024-10-15T07:59:55.307Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "21",
+        "object_repr": "12 Gaun at Bishowjyoti on 2024-10-16",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 56,
+      "fields": {
+        "action_time": "2024-10-16T17:14:28.632Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Row A, Seat 10 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 57,
+      "fields": {
+        "action_time": "2024-10-16T17:14:38.708Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "Row B, Seat 10 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 58,
+      "fields": {
+        "action_time": "2024-10-16T17:14:50.279Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "Row A, Seat 15 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 59,
+      "fields": {
+        "action_time": "2024-10-16T17:14:59.308Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "Row B, Seat 15 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 60,
+      "fields": {
+        "action_time": "2024-10-16T17:15:10.455Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "Row A, Seat 10 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 61,
+      "fields": {
+        "action_time": "2024-10-16T17:15:20.028Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "Row B, Seat 15 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 62,
+      "fields": {
+        "action_time": "2024-10-17T04:44:53.405Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "Row B, Seat 15 at Bishowjyoti",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 63,
+      "fields": {
+        "action_time": "2024-10-17T04:44:53.589Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "Row A, Seat 10 at Bishowjyoti",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 64,
+      "fields": {
+        "action_time": "2024-10-17T04:44:53.667Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "Row B, Seat 15 at Gopi Krishna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 65,
+      "fields": {
+        "action_time": "2024-10-17T04:44:53.733Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "Row A, Seat 15 at Gopi Krishna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 66,
+      "fields": {
+        "action_time": "2024-10-17T04:44:53.801Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "Row B, Seat 10 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 67,
+      "fields": {
+        "action_time": "2024-10-17T04:44:53.867Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Row A, Seat 10 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 68,
+      "fields": {
+        "action_time": "2024-10-17T04:45:03.535Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "9",
+        "object_repr": "Row A, Seat 1 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 69,
+      "fields": {
+        "action_time": "2024-10-17T04:45:10.417Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "10",
+        "object_repr": "Row A, Seat 2 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 70,
+      "fields": {
+        "action_time": "2024-10-17T04:45:16.942Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "11",
+        "object_repr": "Row A, Seat 3 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 71,
+      "fields": {
+        "action_time": "2024-10-17T04:45:41.282Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "12",
+        "object_repr": "Row A, Seat 4 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 72,
+      "fields": {
+        "action_time": "2024-10-17T04:45:46.632Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "Row A, Seat 5 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 73,
+      "fields": {
+        "action_time": "2024-10-17T04:45:57.343Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "14",
+        "object_repr": "Row B, Seat 1 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 74,
+      "fields": {
+        "action_time": "2024-10-17T04:46:03.343Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "15",
+        "object_repr": "Row B, Seat 3 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 75,
+      "fields": {
+        "action_time": "2024-10-17T04:46:12.638Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "16",
+        "object_repr": "Row B, Seat 4 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 76,
+      "fields": {
+        "action_time": "2024-10-17T04:46:20.423Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "17",
+        "object_repr": "Row B, Seat 5 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 77,
+      "fields": {
+        "action_time": "2024-10-17T04:46:27.157Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "18",
+        "object_repr": "Row C, Seat 1 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 78,
+      "fields": {
+        "action_time": "2024-10-17T04:46:33.250Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "19",
+        "object_repr": "Row C, Seat 2 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 79,
+      "fields": {
+        "action_time": "2024-10-17T04:46:38.519Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "20",
+        "object_repr": "Row C, Seat 3 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 80,
+      "fields": {
+        "action_time": "2024-10-17T04:46:43.510Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "21",
+        "object_repr": "Row C, Seat 4 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 81,
+      "fields": {
+        "action_time": "2024-10-17T04:46:50.959Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "22",
+        "object_repr": "Row C, Seat 5 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 82,
+      "fields": {
+        "action_time": "2024-10-17T04:46:57.721Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "23",
+        "object_repr": "Row A, Seat 1 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 83,
+      "fields": {
+        "action_time": "2024-10-17T04:47:04.438Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "24",
+        "object_repr": "Row A, Seat 2 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 84,
+      "fields": {
+        "action_time": "2024-10-17T04:47:17.601Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "25",
+        "object_repr": "Row A, Seat 3 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 85,
+      "fields": {
+        "action_time": "2024-10-17T04:47:23.946Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "26",
+        "object_repr": "Row A, Seat 4 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 86,
+      "fields": {
+        "action_time": "2024-10-17T04:47:30.489Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "27",
+        "object_repr": "Row A, Seat 5 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 87,
+      "fields": {
+        "action_time": "2024-10-17T04:47:36.153Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "28",
+        "object_repr": "Row B, Seat 1 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 88,
+      "fields": {
+        "action_time": "2024-10-17T04:47:42.311Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "29",
+        "object_repr": "Row B, Seat 2 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 89,
+      "fields": {
+        "action_time": "2024-10-17T04:47:47.774Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "30",
+        "object_repr": "Row B, Seat 3 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 90,
+      "fields": {
+        "action_time": "2024-10-17T04:48:19.432Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "31",
+        "object_repr": "Row B, Seat 4 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 91,
+      "fields": {
+        "action_time": "2024-10-17T04:48:29.816Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "32",
+        "object_repr": "Row B, Seat 5 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 92,
+      "fields": {
+        "action_time": "2024-10-17T04:48:44.767Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "33",
+        "object_repr": "Row C, Seat 1 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 93,
+      "fields": {
+        "action_time": "2024-10-17T04:48:50.662Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "34",
+        "object_repr": "Row C, Seat 2 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 94,
+      "fields": {
+        "action_time": "2024-10-17T04:48:56.117Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "35",
+        "object_repr": "Row C, Seat 3 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 95,
+      "fields": {
+        "action_time": "2024-10-17T04:49:04.065Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "36",
+        "object_repr": "Row C, Seat 4 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 96,
+      "fields": {
+        "action_time": "2024-10-17T04:49:10.678Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "37",
+        "object_repr": "Row C, Seat 5 at Gopi Krishna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 97,
+      "fields": {
+        "action_time": "2024-10-17T04:50:17.278Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "38",
+        "object_repr": "Row B, Seat 2 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 98,
+      "fields": {
+        "action_time": "2024-10-17T04:50:45.637Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "39",
+        "object_repr": "Row A, Seat 1 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 99,
+      "fields": {
+        "action_time": "2024-10-17T04:50:52.711Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "40",
+        "object_repr": "Row A, Seat 2 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 100,
+      "fields": {
+        "action_time": "2024-10-17T04:50:59.270Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "41",
+        "object_repr": "Row A, Seat 3 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 101,
+      "fields": {
+        "action_time": "2024-10-17T04:51:04.838Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "42",
+        "object_repr": "Row A, Seat 4 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 102,
+      "fields": {
+        "action_time": "2024-10-17T04:51:10.742Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "43",
+        "object_repr": "Row A, Seat 5 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 103,
+      "fields": {
+        "action_time": "2024-10-17T04:51:16.406Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "44",
+        "object_repr": "Row B, Seat 1 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 104,
+      "fields": {
+        "action_time": "2024-10-17T04:51:21.853Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "45",
+        "object_repr": "Row B, Seat 2 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 105,
+      "fields": {
+        "action_time": "2024-10-17T04:51:28.008Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "46",
+        "object_repr": "Row B, Seat 3 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 106,
+      "fields": {
+        "action_time": "2024-10-17T04:51:33.917Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "47",
+        "object_repr": "Row B, Seat 4 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 107,
+      "fields": {
+        "action_time": "2024-10-17T04:51:39.583Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "48",
+        "object_repr": "Row B, Seat 5 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 108,
+      "fields": {
+        "action_time": "2024-10-17T04:51:44.726Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "49",
+        "object_repr": "Row C, Seat 1 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 109,
+      "fields": {
+        "action_time": "2024-10-17T04:51:49.680Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "50",
+        "object_repr": "Row C, Seat 2 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 110,
+      "fields": {
+        "action_time": "2024-10-17T04:51:55.176Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "51",
+        "object_repr": "Row C, Seat 3 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 111,
+      "fields": {
+        "action_time": "2024-10-17T04:52:01.167Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "52",
+        "object_repr": "Row C, Seat 4 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 112,
+      "fields": {
+        "action_time": "2024-10-17T04:52:06.670Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "53",
+        "object_repr": "Row C, Seat 5 at Bishowjyoti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 113,
+      "fields": {
+        "action_time": "2024-10-17T16:55:56.006Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 114,
+      "fields": {
+        "action_time": "2024-10-17T16:56:07.355Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "12 Gaun at 12:00:00 on 2024-10-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 115,
+      "fields": {
+        "action_time": "2024-10-17T16:56:16.449Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 116,
+      "fields": {
+        "action_time": "2024-10-17T16:56:23.836Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-17",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 117,
+      "fields": {
+        "action_time": "2024-10-17T17:10:19.535Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Booking object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 118,
+      "fields": {
+        "action_time": "2024-10-17T17:10:38.963Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Booking object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 119,
+      "fields": {
+        "action_time": "2024-10-17T17:10:49.104Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Booking object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 120,
+      "fields": {
+        "action_time": "2024-10-17T17:10:58.633Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "4",
+        "object_repr": "Booking object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 121,
+      "fields": {
+        "action_time": "2024-10-17T17:11:14.693Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "5",
+        "object_repr": "Booking object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 122,
+      "fields": {
+        "action_time": "2024-10-17T17:11:26.427Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "6",
+        "object_repr": "Booking object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 123,
+      "fields": {
+        "action_time": "2024-10-17T17:11:47.088Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "7",
+        "object_repr": "Booking object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 124,
+      "fields": {
+        "action_time": "2024-10-17T17:11:59.631Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "8",
+        "object_repr": "Booking object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 125,
+      "fields": {
+        "action_time": "2024-10-17T17:12:12.019Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "9",
+        "object_repr": "Booking object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 126,
+      "fields": {
+        "action_time": "2024-10-17T17:12:40.433Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "10",
+        "object_repr": "Booking object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 127,
+      "fields": {
+        "action_time": "2024-10-17T17:39:29.518Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "11",
+        "object_repr": "Booking object (11)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 128,
+      "fields": {
+        "action_time": "2024-10-17T17:39:44.146Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "12",
+        "object_repr": "Booking object (12)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 129,
+      "fields": {
+        "action_time": "2024-10-17T17:40:04.201Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "13",
+        "object_repr": "Booking object (13)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 130,
+      "fields": {
+        "action_time": "2024-10-18T04:32:25.932Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "12 Gaun at Guna Cinema on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 131,
+      "fields": {
+        "action_time": "2024-10-18T04:32:37.104Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "12 Gaun at Guna Cinema on 2024-10-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 132,
+      "fields": {
+        "action_time": "2024-10-18T04:32:52.022Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "12 Gaun at Guna Cinema on 2024-10-20",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 133,
+      "fields": {
+        "action_time": "2024-10-18T04:33:01.208Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "12 Gaun at Guna Cinema on 2024-10-21",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 134,
+      "fields": {
+        "action_time": "2024-10-18T04:33:11.542Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "12 Gaun at Gopi Krishna Cinema on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 135,
+      "fields": {
+        "action_time": "2024-10-18T04:33:36.264Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "12 Gaun at Gopi Krishna Cinema on 2024-10-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 136,
+      "fields": {
+        "action_time": "2024-10-18T04:33:43.629Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "12 Gaun at Gopi Krishna Cinema on 2024-10-20",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 137,
+      "fields": {
+        "action_time": "2024-10-18T04:34:04.198Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Chakka Panja 5 at Guna Cinema on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 138,
+      "fields": {
+        "action_time": "2024-10-18T04:34:10.013Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Chakka Panja 5 at Guna Cinema on 2024-10-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 139,
+      "fields": {
+        "action_time": "2024-10-18T04:34:19.613Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "Chakka Panja 5 at Guna Cinema on 2024-10-20",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 140,
+      "fields": {
+        "action_time": "2024-10-18T04:34:26.272Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "Chakka Panja 5 at Guna Cinema on 2024-10-21",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 141,
+      "fields": {
+        "action_time": "2024-10-18T04:34:55.348Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "Jwai Saab at Guna Cinema on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 142,
+      "fields": {
+        "action_time": "2024-10-18T04:35:01.180Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "Jwai Saab at Guna Cinema on 2024-10-17",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 143,
+      "fields": {
+        "action_time": "2024-10-18T04:35:19.175Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "Jwai Saab at Guna Cinema on 2024-10-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 144,
+      "fields": {
+        "action_time": "2024-10-18T04:35:35.644Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "Chakka Panja 5 at Bishowjyoti on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 145,
+      "fields": {
+        "action_time": "2024-10-18T04:35:40.964Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "Chakka Panja 5 at Bishowjyoti on 2024-10-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 146,
+      "fields": {
+        "action_time": "2024-10-18T04:35:59.866Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "Jwai Saab at Gopi Krishna Cinema on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 147,
+      "fields": {
+        "action_time": "2024-10-18T04:36:06.027Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "17",
+        "object_repr": "Jwai Saab at Gopi Krishna Cinema on 2024-10-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 148,
+      "fields": {
+        "action_time": "2024-10-18T04:36:23.485Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "Jwai Saab at Bishowjyoti on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 149,
+      "fields": {
+        "action_time": "2024-10-18T04:36:29.291Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "Jwai Saab at Bishowjyoti on 2024-10-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 150,
+      "fields": {
+        "action_time": "2024-10-18T04:36:43.316Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "20",
+        "object_repr": "12 Gaun at Bishowjyoti on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 151,
+      "fields": {
+        "action_time": "2024-10-18T04:36:47.875Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "21",
+        "object_repr": "12 Gaun at Bishowjyoti on 2024-10-19",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show Day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 152,
+      "fields": {
+        "action_time": "2024-10-18T04:39:01.173Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "12 Gaun at 12:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 153,
+      "fields": {
+        "action_time": "2024-10-18T04:39:36.457Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 154,
+      "fields": {
+        "action_time": "2024-10-18T04:39:42.541Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "9",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 155,
+      "fields": {
+        "action_time": "2024-10-18T04:39:47.627Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "8",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 156,
+      "fields": {
+        "action_time": "2024-10-18T04:39:52.815Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "12 Gaun at 12:00:00 on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 157,
+      "fields": {
+        "action_time": "2024-10-18T04:39:59.659Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-18",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Show day\"]}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 158,
+      "fields": {
+        "action_time": "2024-10-18T04:40:41.188Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "11",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 159,
+      "fields": {
+        "action_time": "2024-10-18T04:40:51.254Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "12",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 160,
+      "fields": {
+        "action_time": "2024-10-18T04:40:57.676Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "13",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 161,
+      "fields": {
+        "action_time": "2024-10-18T04:41:13.893Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "14",
+        "object_repr": "12 Gaun at 12:00:00 on 2024-10-21",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 162,
+      "fields": {
+        "action_time": "2024-10-18T04:41:20.396Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "15",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-21",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 163,
+      "fields": {
+        "action_time": "2024-10-18T04:41:40.696Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "16",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 164,
+      "fields": {
+        "action_time": "2024-10-18T04:41:50.918Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "17",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 165,
+      "fields": {
+        "action_time": "2024-10-18T04:42:02.557Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "18",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 166,
+      "fields": {
+        "action_time": "2024-10-18T04:42:15.317Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "19",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 167,
+      "fields": {
+        "action_time": "2024-10-18T04:42:22.460Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "20",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 168,
+      "fields": {
+        "action_time": "2024-10-18T04:42:31.321Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "21",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 169,
+      "fields": {
+        "action_time": "2024-10-18T04:42:42.196Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "22",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 170,
+      "fields": {
+        "action_time": "2024-10-18T04:42:53.102Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "23",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 171,
+      "fields": {
+        "action_time": "2024-10-18T04:43:01.454Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "24",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 172,
+      "fields": {
+        "action_time": "2024-10-18T04:43:07.357Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "25",
+        "object_repr": "12 Gaun at 06:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 173,
+      "fields": {
+        "action_time": "2024-10-18T04:43:13.811Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "26",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 174,
+      "fields": {
+        "action_time": "2024-10-18T04:43:40.439Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "27",
+        "object_repr": "Chakka Panja 5 at 06:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 175,
+      "fields": {
+        "action_time": "2024-10-18T04:43:45.107Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "28",
+        "object_repr": "12 Gaun at 12:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 176,
+      "fields": {
+        "action_time": "2024-10-18T04:44:02.100Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "29",
+        "object_repr": "Chakka Panja 5 at 18:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 177,
+      "fields": {
+        "action_time": "2024-10-18T04:44:09.231Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "30",
+        "object_repr": "12 Gaun at 18:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 178,
+      "fields": {
+        "action_time": "2024-10-18T04:45:19.775Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "31",
+        "object_repr": "Chakka Panja 5 at 06:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 179,
+      "fields": {
+        "action_time": "2024-10-18T04:45:28.126Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "32",
+        "object_repr": "Chakka Panja 5 at 12:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 180,
+      "fields": {
+        "action_time": "2024-10-18T04:45:35.775Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "33",
+        "object_repr": "Chakka Panja 5 at 18:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 181,
+      "fields": {
+        "action_time": "2024-10-18T04:45:48.685Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "34",
+        "object_repr": "Chakka Panja 5 at 10:30:46 on 2024-10-20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 182,
+      "fields": {
+        "action_time": "2024-10-18T04:46:01.077Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "35",
+        "object_repr": "Chakka Panja 5 at 12:00:00 on 2024-10-20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 183,
+      "fields": {
+        "action_time": "2024-10-18T04:46:07.942Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "36",
+        "object_repr": "Chakka Panja 5 at 18:00:00 on 2024-10-20",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 184,
+      "fields": {
+        "action_time": "2024-10-18T04:46:16.079Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "37",
+        "object_repr": "Chakka Panja 5 at 06:00:00 on 2024-10-21",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 185,
+      "fields": {
+        "action_time": "2024-10-18T04:46:23.198Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "38",
+        "object_repr": "Chakka Panja 5 at 10:31:22 on 2024-10-21",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 186,
+      "fields": {
+        "action_time": "2024-10-18T04:46:42.560Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "39",
+        "object_repr": "Chakka Panja 5 at 18:00:00 on 2024-10-21",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 187,
+      "fields": {
+        "action_time": "2024-10-18T04:46:55.086Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "40",
+        "object_repr": "Chakka Panja 5 at 10:31:54 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 188,
+      "fields": {
+        "action_time": "2024-10-18T04:47:05.187Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "41",
+        "object_repr": "Chakka Panja 5 at 10:32:04 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 189,
+      "fields": {
+        "action_time": "2024-10-18T04:47:13.572Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "42",
+        "object_repr": "Jwai Saab at 06:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 190,
+      "fields": {
+        "action_time": "2024-10-18T04:47:37.254Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "43",
+        "object_repr": "Jwai Saab at 12:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 191,
+      "fields": {
+        "action_time": "2024-10-18T04:47:43.990Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "44",
+        "object_repr": "Jwai Saab at 18:00:00 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 192,
+      "fields": {
+        "action_time": "2024-10-18T04:48:03.973Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "45",
+        "object_repr": "Jwai Saab at 12:00:00 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 193,
+      "fields": {
+        "action_time": "2024-10-18T04:48:42.671Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "46",
+        "object_repr": "Jwai Saab at 10:33:39 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 194,
+      "fields": {
+        "action_time": "2024-10-18T04:48:48.936Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "47",
+        "object_repr": "Jwai Saab at 10:33:47 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 195,
+      "fields": {
+        "action_time": "2024-10-18T04:48:56.111Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "48",
+        "object_repr": "Jwai Saab at 10:33:55 on 2024-10-18",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 196,
+      "fields": {
+        "action_time": "2024-10-18T04:49:00.685Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "49",
+        "object_repr": "Jwai Saab at 10:33:59 on 2024-10-19",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 197,
+      "fields": {
+        "action_time": "2024-10-18T12:13:38.111Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "54",
+        "object_repr": "Row A, Seat 6 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 198,
+      "fields": {
+        "action_time": "2024-10-18T12:13:43.752Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "55",
+        "object_repr": "Row A, Seat 7 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 199,
+      "fields": {
+        "action_time": "2024-10-18T12:13:52.326Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "56",
+        "object_repr": "Row A, Seat 8 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 200,
+      "fields": {
+        "action_time": "2024-10-18T12:13:58.291Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "57",
+        "object_repr": "Row A, Seat 9 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 201,
+      "fields": {
+        "action_time": "2024-10-18T12:14:04.030Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "58",
+        "object_repr": "Row A, Seat 10 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 202,
+      "fields": {
+        "action_time": "2024-10-18T12:14:17.540Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "59",
+        "object_repr": "Row A, Seat 11 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 203,
+      "fields": {
+        "action_time": "2024-10-18T12:14:23.192Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "60",
+        "object_repr": "Row A, Seat 12 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 204,
+      "fields": {
+        "action_time": "2024-10-18T12:14:30.575Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "61",
+        "object_repr": "Row A, Seat 13 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 205,
+      "fields": {
+        "action_time": "2024-10-18T12:14:37.229Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "62",
+        "object_repr": "Row A, Seat 14 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 206,
+      "fields": {
+        "action_time": "2024-10-18T12:14:42.658Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "63",
+        "object_repr": "Row A, Seat 15 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 207,
+      "fields": {
+        "action_time": "2024-10-18T12:15:02.907Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "64",
+        "object_repr": "Row A, Seat 16 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 208,
+      "fields": {
+        "action_time": "2024-10-18T12:15:10.717Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "65",
+        "object_repr": "Row A, Seat 17 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 209,
+      "fields": {
+        "action_time": "2024-10-18T12:15:24.478Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "66",
+        "object_repr": "Row A, Seat 18 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 210,
+      "fields": {
+        "action_time": "2024-10-18T12:15:38.170Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "67",
+        "object_repr": "Row A, Seat 19 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 211,
+      "fields": {
+        "action_time": "2024-10-18T12:15:53.344Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "68",
+        "object_repr": "Row A, Seat 20 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 212,
+      "fields": {
+        "action_time": "2024-10-18T13:22:02.532Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "68",
+        "object_repr": "Row A, Seat 20 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 213,
+      "fields": {
+        "action_time": "2024-10-18T13:22:02.724Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "67",
+        "object_repr": "Row A, Seat 19 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 214,
+      "fields": {
+        "action_time": "2024-10-18T13:22:02.801Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "66",
+        "object_repr": "Row A, Seat 18 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 215,
+      "fields": {
+        "action_time": "2024-10-18T13:22:02.880Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "65",
+        "object_repr": "Row A, Seat 17 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 216,
+      "fields": {
+        "action_time": "2024-10-18T13:22:02.957Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "64",
+        "object_repr": "Row A, Seat 16 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 217,
+      "fields": {
+        "action_time": "2024-10-18T13:22:03.025Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "63",
+        "object_repr": "Row A, Seat 15 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 218,
+      "fields": {
+        "action_time": "2024-10-18T13:22:03.090Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "62",
+        "object_repr": "Row A, Seat 14 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 219,
+      "fields": {
+        "action_time": "2024-10-18T13:22:03.157Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "61",
+        "object_repr": "Row A, Seat 13 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 220,
+      "fields": {
+        "action_time": "2024-10-18T13:22:03.246Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "60",
+        "object_repr": "Row A, Seat 12 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 221,
+      "fields": {
+        "action_time": "2024-10-18T13:22:03.348Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "59",
+        "object_repr": "Row A, Seat 11 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 222,
+      "fields": {
+        "action_time": "2024-10-18T13:24:23.554Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "58",
+        "object_repr": "Row A, Seat 10 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 223,
+      "fields": {
+        "action_time": "2024-10-18T13:24:23.667Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "57",
+        "object_repr": "Row A, Seat 9 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 224,
+      "fields": {
+        "action_time": "2024-10-18T13:24:23.766Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "56",
+        "object_repr": "Row A, Seat 8 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 225,
+      "fields": {
+        "action_time": "2024-10-18T13:24:23.867Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "55",
+        "object_repr": "Row A, Seat 7 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 226,
+      "fields": {
+        "action_time": "2024-10-18T13:24:23.967Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "54",
+        "object_repr": "Row A, Seat 6 at Guna Cinema",
+        "action_flag": 3,
+        "change_message": ""
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 227,
+      "fields": {
+        "action_time": "2024-10-18T13:25:15.776Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "69",
+        "object_repr": "Row A, Seat 6 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 228,
+      "fields": {
+        "action_time": "2024-10-18T13:25:23.871Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "70",
+        "object_repr": "Row A, Seat 7 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 229,
+      "fields": {
+        "action_time": "2024-10-18T13:25:33.358Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "71",
+        "object_repr": "Row A, Seat 8 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 230,
+      "fields": {
+        "action_time": "2024-10-18T13:25:40.569Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "72",
+        "object_repr": "Row A, Seat 9 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 231,
+      "fields": {
+        "action_time": "2024-10-18T13:25:48.447Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "73",
+        "object_repr": "Row A, Seat 10 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 232,
+      "fields": {
+        "action_time": "2024-10-18T13:25:57.272Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "74",
+        "object_repr": "Row B, Seat 6 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 233,
+      "fields": {
+        "action_time": "2024-10-18T13:26:05.522Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "75",
+        "object_repr": "Row B, Seat 7 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 234,
+      "fields": {
+        "action_time": "2024-10-18T13:26:12.979Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "76",
+        "object_repr": "Row B, Seat 8 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 235,
+      "fields": {
+        "action_time": "2024-10-18T13:26:21.159Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "77",
+        "object_repr": "Row B, Seat 9 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 236,
+      "fields": {
+        "action_time": "2024-10-18T13:26:31.764Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "78",
+        "object_repr": "Row B, Seat 10 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 237,
+      "fields": {
+        "action_time": "2024-10-18T13:26:53.128Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "79",
+        "object_repr": "Row C, Seat 6 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 238,
+      "fields": {
+        "action_time": "2024-10-18T13:27:00.609Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "80",
+        "object_repr": "Row C, Seat 7 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 239,
+      "fields": {
+        "action_time": "2024-10-18T13:27:07.823Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "81",
+        "object_repr": "Row C, Seat 8 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 240,
+      "fields": {
+        "action_time": "2024-10-18T13:27:16.236Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "82",
+        "object_repr": "Row C, Seat 9 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 241,
+      "fields": {
+        "action_time": "2024-10-18T13:27:24.154Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "83",
+        "object_repr": "Row C, Seat 10 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 242,
+      "fields": {
+        "action_time": "2024-10-18T13:33:24.841Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "84",
+        "object_repr": "Row D, Seat 1 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 243,
+      "fields": {
+        "action_time": "2024-10-18T13:33:32.245Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "85",
+        "object_repr": "Row D, Seat 2 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 244,
+      "fields": {
+        "action_time": "2024-10-18T13:33:40.056Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "86",
+        "object_repr": "Row D, Seat 3 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 245,
+      "fields": {
+        "action_time": "2024-10-18T13:33:56.344Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "87",
+        "object_repr": "Row D, Seat 4 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 246,
+      "fields": {
+        "action_time": "2024-10-18T13:34:06.137Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "88",
+        "object_repr": "Row D, Seat 5 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 247,
+      "fields": {
+        "action_time": "2024-10-18T13:34:18.584Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "89",
+        "object_repr": "Row D, Seat 6 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 248,
+      "fields": {
+        "action_time": "2024-10-18T13:34:30.635Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "90",
+        "object_repr": "Row D, Seat 7 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 249,
+      "fields": {
+        "action_time": "2024-10-18T13:34:41.132Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "91",
+        "object_repr": "Row D, Seat 8 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 250,
+      "fields": {
+        "action_time": "2024-10-18T13:34:49.953Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "92",
+        "object_repr": "Row D, Seat 9 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 251,
+      "fields": {
+        "action_time": "2024-10-18T13:34:59.547Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "93",
+        "object_repr": "Row D, Seat 10 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 252,
+      "fields": {
+        "action_time": "2024-10-18T13:35:34.889Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "94",
+        "object_repr": "Row E, Seat 1 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 253,
+      "fields": {
+        "action_time": "2024-10-18T13:35:57.666Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "95",
+        "object_repr": "Row E, Seat 2 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 254,
+      "fields": {
+        "action_time": "2024-10-18T13:36:06.280Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "96",
+        "object_repr": "Row E, Seat 3 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 255,
+      "fields": {
+        "action_time": "2024-10-18T13:36:13.558Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "97",
+        "object_repr": "Row E, Seat 4 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 256,
+      "fields": {
+        "action_time": "2024-10-18T13:36:21.587Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "98",
+        "object_repr": "Row E, Seat 5 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 257,
+      "fields": {
+        "action_time": "2024-10-18T13:36:29.558Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "99",
+        "object_repr": "Row E, Seat 6 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 258,
+      "fields": {
+        "action_time": "2024-10-18T13:36:37.629Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "100",
+        "object_repr": "Row E, Seat 7 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 259,
+      "fields": {
+        "action_time": "2024-10-18T13:36:47.045Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "101",
+        "object_repr": "Row E, Seat 8 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 260,
+      "fields": {
+        "action_time": "2024-10-18T13:36:55.450Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "102",
+        "object_repr": "Row E, Seat 9 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "admin.logentry",
+      "pk": 261,
+      "fields": {
+        "action_time": "2024-10-18T13:37:03.835Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "103",
+        "object_repr": "Row E, Seat 10 at Guna Cinema",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 1,
+      "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 2,
+      "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 3,
+      "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 4,
+      "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 5,
+      "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 6,
+      "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 7,
+      "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 8,
+      "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 9,
+      "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 10,
+      "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 11,
+      "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 12,
+      "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 13,
+      "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 14,
+      "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 15,
+      "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 16,
+      "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 17,
+      "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 18,
+      "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 19,
+      "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 20,
+      "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 21,
+      "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 22,
+      "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 23,
+      "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 24,
+      "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 25,
+      "fields": {
+        "name": "Can add Service",
+        "content_type": 7,
+        "codename": "add_service"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 26,
+      "fields": {
+        "name": "Can change Service",
+        "content_type": 7,
+        "codename": "change_service"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 27,
+      "fields": {
+        "name": "Can delete Service",
+        "content_type": 7,
+        "codename": "delete_service"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 28,
+      "fields": {
+        "name": "Can view Service",
+        "content_type": 7,
+        "codename": "view_service"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 29,
+      "fields": {
+        "name": "Can add Movie Genre",
+        "content_type": 8,
+        "codename": "add_genre"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 30,
+      "fields": {
+        "name": "Can change Movie Genre",
+        "content_type": 8,
+        "codename": "change_genre"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 31,
+      "fields": {
+        "name": "Can delete Movie Genre",
+        "content_type": 8,
+        "codename": "delete_genre"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 32,
+      "fields": {
+        "name": "Can view Movie Genre",
+        "content_type": 8,
+        "codename": "view_genre"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 33,
+      "fields": {
+        "name": "Can add Movie",
+        "content_type": 9,
+        "codename": "add_movie"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 34,
+      "fields": {
+        "name": "Can change Movie",
+        "content_type": 9,
+        "codename": "change_movie"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 35,
+      "fields": {
+        "name": "Can delete Movie",
+        "content_type": 9,
+        "codename": "delete_movie"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 36,
+      "fields": {
+        "name": "Can view Movie",
+        "content_type": 9,
+        "codename": "view_movie"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 37,
+      "fields": {
+        "name": "Can add Theater",
+        "content_type": 10,
+        "codename": "add_theater"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 38,
+      "fields": {
+        "name": "Can change Theater",
+        "content_type": 10,
+        "codename": "change_theater"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 39,
+      "fields": {
+        "name": "Can delete Theater",
+        "content_type": 10,
+        "codename": "delete_theater"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 40,
+      "fields": {
+        "name": "Can view Theater",
+        "content_type": 10,
+        "codename": "view_theater"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 41,
+      "fields": {
+        "name": "Can add Show Day",
+        "content_type": 11,
+        "codename": "add_showday"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 42,
+      "fields": {
+        "name": "Can change Show Day",
+        "content_type": 11,
+        "codename": "change_showday"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 43,
+      "fields": {
+        "name": "Can delete Show Day",
+        "content_type": 11,
+        "codename": "delete_showday"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 44,
+      "fields": {
+        "name": "Can view Show Day",
+        "content_type": 11,
+        "codename": "view_showday"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 45,
+      "fields": {
+        "name": "Can add show time",
+        "content_type": 12,
+        "codename": "add_showtime"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 46,
+      "fields": {
+        "name": "Can change show time",
+        "content_type": 12,
+        "codename": "change_showtime"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 47,
+      "fields": {
+        "name": "Can delete show time",
+        "content_type": 12,
+        "codename": "delete_showtime"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 48,
+      "fields": {
+        "name": "Can view show time",
+        "content_type": 12,
+        "codename": "view_showtime"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 49,
+      "fields": {
+        "name": "Can add seat",
+        "content_type": 13,
+        "codename": "add_seat"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 50,
+      "fields": {
+        "name": "Can change seat",
+        "content_type": 13,
+        "codename": "change_seat"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 51,
+      "fields": {
+        "name": "Can delete seat",
+        "content_type": 13,
+        "codename": "delete_seat"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 52,
+      "fields": {
+        "name": "Can view seat",
+        "content_type": 13,
+        "codename": "view_seat"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 53,
+      "fields": {
+        "name": "Can add Booking",
+        "content_type": 14,
+        "codename": "add_booking"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 54,
+      "fields": {
+        "name": "Can change Booking",
+        "content_type": 14,
+        "codename": "change_booking"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 55,
+      "fields": {
+        "name": "Can delete Booking",
+        "content_type": 14,
+        "codename": "delete_booking"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 56,
+      "fields": {
+        "name": "Can view Booking",
+        "content_type": 14,
+        "codename": "view_booking"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 1,
+      "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 2,
+      "fields": {
+        "app_label": "auth",
+        "model": "permission"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 3,
+      "fields": {
+        "app_label": "auth",
+        "model": "group"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 4,
+      "fields": {
+        "app_label": "auth",
+        "model": "user"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 5,
+      "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 6,
+      "fields": {
+        "app_label": "sessions",
+        "model": "session"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 7,
+      "fields": {
+        "app_label": "services",
+        "model": "service"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 8,
+      "fields": {
+        "app_label": "movie",
+        "model": "genre"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 9,
+      "fields": {
+        "app_label": "movie",
+        "model": "movie"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 10,
+      "fields": {
+        "app_label": "movie",
+        "model": "theater"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 11,
+      "fields": {
+        "app_label": "movie",
+        "model": "showday"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 12,
+      "fields": {
+        "app_label": "movie",
+        "model": "showtime"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 13,
+      "fields": {
+        "app_label": "movie",
+        "model": "seat"
+      }
+    },
+    {
+      "model": "contenttypes.contenttype",
+      "pk": 14,
+      "fields": {
+        "app_label": "movie",
+        "model": "booking"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "013j5ft0y27luh55nu8r9srni1yi6cis",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RC2hbJ69O4bCMsuUjU0Ke3J-HdD0oNeZybzViHuWwl7kzXMrC4K1OmXUUxPqV3wI9b7otNSt3Um3RN92KZvC8vrerR_gxJb6Vu0lq0IJo8EOUJ2mfLgRzMJGMJEGaJDEhaL7GCSs_fOpFHsIAioPl_5pDg-:1t0fdn:SG6uk9SUNq7hRLnyZ0kkIFLkrpTxtAFZL8OYJb7-ohY",
+        "expire_date": "2024-10-29T11:23:03.141Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "1bihmjjvl0124bvr2uzagpfmz0g1az8r",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RC2hbJ69O4bCMsuUjU0Ke3J-HdD0oNeZybzViHuWwl7kzXMrC4K1OmXUUxPqV3wI9b7otNSt3Um3RN92KZvC8vrerR_gxJb6Vu0lq0IJo8EOUJ2mfLgRzMJGMJEGaJDEhaL7GCSs_fOpFHsIAioPl_5pDg-:1t17b0:cWbwCp9kP7UeaWAeCA_JaPWmzf2Gmjh8pBzrlM2va0Y",
+        "expire_date": "2024-10-30T17:14:02.285Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "2eew3gs6p4j5q9vej1qjiaa0t5vmgaqa",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RC2hbJ69O4bCMsuUjU0Ke3J-HdD0oNeZybzViHuWwl7kzXMrC4K1OmXUUxPqV3wI9b7otNSt3Um3RN92KZvC8vrerR_gxJb6Vu0lq0IJo8EOUJ2mfLgRzMJGMJEGaJDEhaL7GCSs_fOpFHsIAioPl_5pDg-:1t0cB4:sS3LL7GXCEOTFdXdhDTFgxgIJT7ewINt6t--aE60mQQ",
+        "expire_date": "2024-10-29T07:41:10.378Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "adfus3oi43kz6v6qsenpwll08mhyto3z",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RC2hbJ69O4bCMsuUjU0Ke3J-HdD0oNeZybzViHuWwl7kzXMrC4K1OmXUUxPqV3wI9b7otNSt3Um3RN92KZvC8vrerR_gxJb6Vu0lq0IJo8EOUJ2mfLgRzMJGMJEGaJDEhaL7GCSs_fOpFHsIAioPl_5pDg-:1t2tXU:0jLno98nYFTfZ8VBrhankYzKNTAP3ZyztHEU3ZeCNy4",
+        "expire_date": "2024-11-04T14:37:44.637Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "av5o684v6l97r0200cx1vnq8k3j2pred",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RC2hbJ69O4bCMsuUjU0Ke3J-HdD0oNeZybzViHuWwl7kzXMrC4K1OmXUUxPqV3wI9b7otNSt3Um3RN92KZvC8vrerR_gxJb6Vu0lq0IJo8EOUJ2mfLgRzMJGMJEGaJDEhaL7GCSs_fOpFHsIAioPl_5pDg-:1t1Tma:OcSIZGvGzH-Hsy_byrzGTEEJFaGZ7OXaXE7H5bN73EY",
+        "expire_date": "2024-10-31T16:55:28.342Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "qkbkcaw1vv9gmlw9z9gko0p1ipl7u5c8",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RC2hbJ69O4bCMsuUjU0Ke3J-HdD0oNeZybzViHuWwl7kzXMrC4K1OmXUUxPqV3wI9b7otNSt3Um3RN92KZvC8vrerR_gxJb6Vu0lq0IJo8EOUJ2mfLgRzMJGMJEGaJDEhaL7GCSs_fOpFHsIAioPl_5pDg-:1t1mxd:1WTyzj5EMbFoHihqWJ6T85B0vJxAE58X5jcMUlW618c",
+        "expire_date": "2024-11-01T13:24:09.102Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "r3lq39f2khberkg3x9x5ropxzundjxrt",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RC2hbJ69O4bCMsuUjU0Ke3J-HdD0oNeZybzViHuWwl7kzXMrC4K1OmXUUxPqV3wI9b7otNSt3Um3RN92KZvC8vrerR_gxJb6Vu0lq0IJo8EOUJ2mfLgRzMJGMJEGaJDEhaL7GCSs_fOpFHsIAioPl_5pDg-:1t0Kxs:37iC89s7vk2iAd_I3GopBdhICELDU_GmWcvJK1Fq3lo",
+        "expire_date": "2024-10-28T13:18:24.223Z"
+      }
+    },
+    {
+      "model": "sessions.session",
+      "pk": "syz9wxaa44cl2gtwd7elc03ke4tziv9a",
+      "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RC2hbJ69O4bCMsuUjU0Ke3J-HdD0oNeZybzViHuWwl7kzXMrC4K1OmXUUxPqV3wI9b7otNSt3Um3RN92KZvC8vrerR_gxJb6Vu0lq0IJo8EOUJ2mfLgRzMJGMJEGaJDEhaL7GCSs_fOpFHsIAioPl_5pDg-:1t1lqB:DM3fsg-UunSHj2KhpimYA_d2n7FSMxuiOBoLukgW2qs",
+        "expire_date": "2024-11-01T12:12:23.875Z"
+      }
+    },
+    {
+      "model": "services.service",
+      "pk": 1,
+      "fields": {
+        "name": "Bus Ticket",
+        "service_type": "Buses",
+        "slug": "buses",
+        "photo": "services/bus_wwXjsOb.jpeg"
+      }
+    },
+    {
+      "model": "services.service",
+      "pk": 2,
+      "fields": {
+        "name": "Flight Ticket",
+        "service_type": "Flights",
+        "slug": "flights",
+        "photo": "services/plane_O1YClub.jpeg"
+      }
+    },
+    {
+      "model": "services.service",
+      "pk": 3,
+      "fields": {
+        "name": "Movie Ticket",
+        "service_type": "Movies",
+        "slug": "movies",
+        "photo": "services/movie_BJ48Prm.jpeg"
+      }
+    },
+    {
+      "model": "services.service",
+      "pk": 4,
+      "fields": {
+        "name": "Cable Car Ticket",
+        "service_type": "Cable Cars",
+        "slug": "cable-cars",
+        "photo": "services/cable-car_C38ky8W.jpeg"
+      }
+    },
+    {
+      "model": "movie.genre",
+      "pk": 1,
+      "fields": {
+        "name": "Drama",
+        "slug": "drama"
+      }
+    },
+    {
+      "model": "movie.genre",
+      "pk": 2,
+      "fields": {
+        "name": "Social Drama",
+        "slug": "social-drama"
+      }
+    },
+    {
+      "model": "movie.genre",
+      "pk": 3,
+      "fields": {
+        "name": "Action",
+        "slug": "action"
+      }
+    },
+    {
+      "model": "movie.movie",
+      "pk": 1,
+      "fields": {
+        "name": "Chakka Panja 5",
+        "slug": "chakka-panja-5",
+        "genre": 2,
+        "thumbnail": "movies/CP5_310x390_548353_nzOjMV8.png",
+        "language": "Nepali",
+        "casts": "Deepak Raj Giree, Kedar Prasad Ghimire, Barsha Siwakoti",
+        "director": "Deepa Shree Niroula",
+        "duration": "2 hours 38 mins",
+        "release_date": "2024-10-10",
+        "description": "Chhakka Panja 5 is the 5th Nepali Feature Film from Chhakka Panja Franchise, starring Deepak Raj Giree, Kedar Prasad Ghimire, Barsha Siwakoti and directed by Deepa Shree Niraula.",
+        "trailer": "movies/trailers/01_INTRO_1920x1080_HqzynWY.mp4",
+        "created_at": "2024-10-14T13:38:31.162Z",
+        "updated_at": "2024-10-14T13:38:31.162Z",
+        "is_shown": true
+      }
+    },
+    {
+      "model": "movie.movie",
+      "pk": 2,
+      "fields": {
+        "name": "12 Gaun",
+        "slug": "12-gaun",
+        "genre": 3,
+        "thumbnail": "movies/12Gau_310x390_395512_YX9vP3u.png",
+        "language": "Nepali",
+        "casts": "Sameer Bhatt, Biraj Bhatt, Sonu Chandrapal, Deeya Maskey",
+        "director": "Biraj Bhatt",
+        "duration": "2 hours 28 mins",
+        "release_date": "2024-10-10",
+        "description": "12 Gaun is a thrilling tale where romance meets relentless action, revealing deep-seated social issues. Witness courage, betrayal and redemption as heroes rise against adversity.",
+        "trailer": "movies/trailers/01_INTRO_1920x1080_ojC8BWU.mp4",
+        "created_at": "2024-10-14T13:40:49.097Z",
+        "updated_at": "2024-10-14T13:40:49.097Z",
+        "is_shown": true
+      }
+    },
+    {
+      "model": "movie.movie",
+      "pk": 3,
+      "fields": {
+        "name": "Jwai Saab",
+        "slug": "jwai-saab",
+        "genre": 1,
+        "thumbnail": "movies/JwaiSaab_310x390_813920_L5HxPmF.png",
+        "language": "Nepali",
+        "casts": "Jitu Nepal, Niti Shah, Buddhi Tamang, Himesh Pant",
+        "director": "Basanta Niraula",
+        "duration": "2 hours 14 mins",
+        "release_date": "2024-10-10",
+        "description": "Jwai Saab is a Nepali Feature Film starring Jitu Nepal, Niti Shah & Buddhi Tamang directed by Basanta Niraula.",
+        "trailer": "movies/trailers/01_INTRO_1920x1080_SUmb4qz.mp4",
+        "created_at": "2024-10-14T13:42:52.764Z",
+        "updated_at": "2024-10-14T13:42:52.764Z",
+        "is_shown": true
+      }
+    },
+    {
+      "model": "movie.movie",
+      "pk": 4,
+      "fields": {
+        "name": "Behuli From Meghauli",
+        "slug": "behuli-from-meghauli",
+        "genre": 1,
+        "thumbnail": "movies/Meghauli310x390_301026_xrb6hjp.png",
+        "language": "Nepali",
+        "casts": "Swastima Khadka, Nischal Basnet, Basundhara Bhusal, Bijay Baral",
+        "director": "Sajan Kafle & Aakash baral",
+        "duration": "2 hours 10 mins",
+        "release_date": "2024-10-03",
+        "description": "Behuli From Meghauli is a Nepali movie starring Nischal Basnet, Swastima Khadka and directed by Sajan Kafle & Aakash Baral.",
+        "trailer": "movies/trailers/Meghauli310x390_301026_OQEke60.png",
+        "created_at": "2024-10-14T13:44:40.883Z",
+        "updated_at": "2024-10-14T13:44:40.883Z",
+        "is_shown": true
+      }
+    },
+    {
+      "model": "movie.theater",
+      "pk": 2,
+      "fields": {
+        "name": "Guna Cinema",
+        "slug": "guna-cinema",
+        "location": "Lalitpur",
+        "phone": null
+      }
+    },
+    {
+      "model": "movie.theater",
+      "pk": 3,
+      "fields": {
+        "name": "Gopi Krishna Cinema",
+        "slug": "gopi-krishna-cinema",
+        "location": "Kathmandu",
+        "phone": null
+      }
+    },
+    {
+      "model": "movie.theater",
+      "pk": 4,
+      "fields": {
+        "name": "Bishowjyoti",
+        "slug": "bishowjyoti",
+        "location": "Jamal",
+        "phone": null
+      }
+    }
+]

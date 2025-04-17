@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+    <form action="{% url 'admin:bulk_create_show_time' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" name="apply">Add</button>
+        <a href="{% url 'admin:index' %}" class="button">Cancel</a>
+    </form>
+{% endblock content %}

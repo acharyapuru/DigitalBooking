@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %} {{movie.name}} {% endblock title%}
+
+{% block main %}
+    <div class="container mt-3">
+        <div id="movie-info" 
+            data-movie="{{movie.slug}}" 
+            data-theater="{{theater}}" 
+            data-showtime="{{show_time.id}}"
+            style="display: none;"
+        >
+        </div>
+        <div id="user-info" data-userId="{{current_user}}"></div>
+        <!--Showcase-->
+        <ul class="showcase">
+            <li>
+            <div class="seat"></div>
+            <small>Available</small>
+            </li>
+            <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+            </li>
+            <li>
+                <div class="seat locked"></div>
+                <small>Locked</small>
+                </li>
+            <li>
+            <div class="seat sold"></div>
+            <small>Sold</small>
+            </li>
+        </ul>
+        <div class="booking-container">
+            <div id="timer-div">
+                <p>Time Remaining: <span id="timer"></span> </p>
+            </div>
+            <div class="screen"></div>
+            <div id="seat-container">
+            </div>
+        </div>
+        <div class="price-container">
+            <p id="price-text">
+                You have selected <span id="count">0</span> seat for a price of Rs. <span id="total">0</span>
+            </p>
+            <input type="text" placeholder="Apply PromoCode" class="form-control" id="promoCode">
+            <button class="btn btn-primary disabled" id="checkout">Pay</button>
+
+            <!-- Payment Modal -->
+            <div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="paymentModalLabel">Select Payment Method</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="payment-options">
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="confirmPayment">Proceed to Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+{% endblock main%}

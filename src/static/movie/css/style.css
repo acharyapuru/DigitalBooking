@@ -1,0 +1,397 @@
+
+.now-showing{
+    margin-left: -15rem;
+    margin-right: -15rem;
+}
+
+.movie-card {
+    height: 24.38rem; /* Ensure the card maintains the desired height */
+    width: 19.38rem;
+    overflow: hidden; /* Prevent content overflow */
+    border-radius: 21px 21px 0 0;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make sure the image covers the card */
+}
+
+.showing-title{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(49, 49, 49);
+    line-height: 26px;
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    text-size-adjust: 100%;
+}
+.run-time{
+    display: block;
+    color: rgb(139, 139, 139);
+    font-size: 14.4px;
+    font-weight: 400;
+    padding: 0;
+    margin:-6px 0 0 0;
+    line-height: 26px;
+    text-size-adjust: 100%;
+}
+.next-releases{
+    margin-left: -15rem;
+}
+
+
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 90vw;
+    height: 400px;
+    margin-left: -15rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+
+.carousel-item {
+    display: none; /* Hide all items by default */
+    transition: opacity 1s ease; /* Transition effect for fading */
+}
+
+.carousel-item.active {
+    display: block; /* Show active item */
+    opacity: 1; /* Fully visible */
+}
+
+img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.movie-detail .show-detail{
+    background: #e6dec6;
+    border-radius: 20px;
+    padding: 22px 10px;
+}
+
+.movie-detail .show-detail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.movie-detail .show-detail h2{
+    background: #f1671f;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 10px 18px 10px 10px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.movie-detail .show-detail h4{
+    font-weight: bold;
+    margin: 8px 0 12px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.movie-detail .show-detail p{
+    margin: 20px 0;
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+
+.movie-detail .show-detail ul.movie-cast{
+    margin: 0 -29px;
+    margin-bottom: 0;
+
+}
+.movie-detail .show-detail ul.movie-cast li{
+    color: #000000;
+    margin-bottom: 0;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+.movie-detail .show-detail ul.movie-cast li span{
+    color:#000000;
+    margin-bottom: 0;
+    font-weight: 400;
+    flex: 0 0 140px;
+    max-width: 140px;
+}
+
+.movie-detail .view-time{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 23px 10px;
+    background: #e6dec6;
+    margin-top: 20px;
+}
+
+.movie-detail .view-time h5{
+    color: black;
+}
+
+.movie-detail .view-time .ticket-status-index{
+    display: flex;
+    margin: 0 -5px 10px;
+}
+
+.movie-detail .view-time .ticket-status-index li{
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.legend.sold{
+    border-color: rgb(238, 238, 238);
+
+}
+
+.legend.booked{
+    border-color: #ffc107;
+}
+.legend.available{
+    border-color: #4caf50;
+}
+.legend{
+    border: 2px solid;
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    margin-left: 6px;
+    width: 16px;
+    margin-right: 8px;
+}
+
+
+.movie-detail .view-time .selectShowDays ul{
+    list-style: outside none none;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: -10px;
+}
+
+.movie-detail .view-time .selectShowDays ul li{
+    margin: 0 8px;
+}
+
+.movie-detail .view-time .selectShowDays ul li.active a, .selectShowDays ul li a:hover{
+    border: 2px solid #f36f21;
+    color: #f36f21;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.movie-detail .view-time .selectShowDays ul li a{
+    align-items: center;
+    border: 2px solid #888888;
+    border-radius: 50%;
+    color: #888888;
+    display: flex;
+    font-weight: 400;
+    height: 60px;
+    justify-content: center;
+    line-height: 1.1;
+    text-align: center;
+    padding: 7px 0;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    width: 62px;
+    text-decoration: none;
+}
+
+.audi-time{
+    display: flex;
+}
+
+.audi-time .show-time-info{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 -10px;
+    flex: 1;
+    padding: 10px;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.audi-time .show-time-info li{
+    padding: 5px 10px;
+}
+
+.audi-time .show-time-info li a.available {
+    background: #4caf50;
+}
+
+.audi-time .show-time-info li a {
+    background: #f36f21;
+    color: #ffffff;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.audi-time .show-time-info li a.fast-filling {
+    background: #f36f21;
+}
+
+.audi-time .show-time-info li a {
+    background: #f36f21;
+    color: #ffffff;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.audi-time .show-time-info li a.no-available {
+    background: rgb(238, 238, 238);
+    background: linear-gradient(0deg, rgb(238, 238, 238) 0%, rgb(174, 176, 179) 50%, rgb(238, 238, 238) 100%);
+    cursor: not-allowed;
+}
+
+/* css for booking page */
+.booking-container {
+    perspective: 1000px;
+    margin-bottom: 30px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+#seat-container {
+    margin-left: -5rem;
+}
+
+.seat-row {
+    display: flex;
+    align-items: center; /* Aligns row-label and seats in the middle */
+}
+
+
+.row-label {
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+    font-size: 20px;
+    width: 50px; /* Width for the row label column */
+    text-align: center;
+    margin-right: 10px; /* Spacing between row label and first seat */
+}
+
+
+.seat {
+    background-color: green;
+    height: 30px;
+    width: 36px;
+    margin: 7px;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #e6dec6;
+}
+
+.seat-row .seat-number {
+    margin-bottom: -10px;
+    width: 36px;
+}
+  
+.seat.selected {
+    background-color: #FFC107;
+}
+  
+.seat.sold {
+    background-color: #f61616;
+}
+.seat.locked {
+    background-color: #4f0e0e;
+}
+  
+.seat:nth-of-type(2) {
+    margin-right: 18px;
+}
+  
+.seat:nth-last-of-type(2) {
+    margin-left: 18px;
+}
+  
+.seat:not(.sold):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+  
+.showcase .seat:not(.sold):hover {
+    cursor: default;
+    transform: scale(1);
+}
+  
+.showcase {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.showcase li small {
+    margin-left: 2px;
+}
+  
+.booking-container .row {
+    display: flex;
+    justify-content: center;
+}
+  
+.booking-container .screen {
+    background-color: #75a5db;
+    height: 120px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-58deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.price-container #price-text {
+    margin-left: 9rem;
+    margin-top: 1rem;
+}
+
+.price-container #checkout {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.payment-option .payment-logo {
+    max-width: 100%;  /* Allows the image to scale */
+    height: auto;     /* Maintain aspect ratio */
+    max-height: 200px; /* Limit the height */
+    margin-right: 10px;
+}
+
+#promoCode{
+    width: 20%;
+    margin-left: 2rem;
+}
