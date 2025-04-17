@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-21 20:55+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\DigitalBooking\settings.py:138
+msgid "English"
+msgstr "English"
+
+#: .\DigitalBooking\settings.py:139
+msgid "Nepali"
+msgstr "Nepali"
+
+#: .\DigitalBooking\settings.py:140
+msgid "Hindi"
+msgstr "Hindi"
+
+#: .\movie\models.py:10
+msgid "Category Name"
+msgstr "Category Name"
+
+#: .\movie\models.py:15
+msgid "Category Slug"
+msgstr "Category Slug"
+
+#: .\movie\models.py:24 .\movie\models.py:49
+msgid "Movie Genre"
+msgstr "Movie Genre"
+
+#: .\movie\models.py:25
+#, fuzzy
+#| msgid "Movie Genre"
+msgid "Movie Genres"
+msgstr "Movie Genre"
+
+#: .\movie\models.py:36 .\movie\models.py:164
+msgid "Movie Name"
+msgstr "Movie Name"
+
+#: .\movie\models.py:41
+msgid "Movie Slug"
+msgstr "Movie Slug"
+
+#: .\movie\models.py:54
+msgid "Movie Thumbnail"
+msgstr "Movie Thumbnail"
+
+#: .\movie\models.py:59
+msgid "Movie Language"
+msgstr "Movie Language"
+
+#: .\movie\models.py:64
+msgid "Movie Casts"
+msgstr "Movie Casts"
+
+#: .\movie\models.py:69
+msgid "Movie Director"
+msgstr "Movie Director"
+
+#: .\movie\models.py:74
+msgid "Movie Duration"
+msgstr "Movie Duration"
+
+#: .\movie\models.py:78
+msgid "Release Date"
+msgstr "Release Date"
+
+#: .\movie\models.py:82
+msgid "Movie Description"
+msgstr "Movie Description"
+
+#: .\movie\models.py:90
+msgid "Movie Trailer"
+msgstr "Movie Trailer"
+
+#: .\movie\models.py:103
+msgid "Is Shown"
+msgstr "Is Shown"
+
+#: .\movie\models.py:111
+#, fuzzy
+#| msgid "Movie Name"
+msgid "Movie"
+msgstr "Movie Name"
+
+#: .\movie\models.py:112 .\services\models.py:8
+#, fuzzy
+#| msgid "Movie Casts"
+msgid "Movies"
+msgstr "Movie Casts"
+
+#: .\movie\models.py:124 .\movie\models.py:170 .\movie\models.py:211
+msgid "Theater Name"
+msgstr "Theater Name"
+
+#: .\movie\models.py:129
+msgid "Theater Slug"
+msgstr "Theater Slug"
+
+#: .\movie\models.py:136
+msgid "Theater Location"
+msgstr "Theater Location"
+
+#: .\movie\models.py:141
+msgid "Theater Phone"
+msgstr "Theater Phone"
+
+#: .\movie\models.py:155
+#, fuzzy
+#| msgid "Theater Name"
+msgid "Theater"
+msgstr "Theater Name"
+
+#: .\movie\models.py:156
+#, fuzzy
+#| msgid "Theater Name"
+msgid "Theaters"
+msgstr "Theater Name"
+
+#: .\movie\models.py:174 .\movie\models.py:181 .\movie\models.py:190
+msgid "Show Day"
+msgstr "Show Day"
+
+#: .\movie\models.py:182
+#, fuzzy
+#| msgid "Show Day"
+msgid "Show Days"
+msgstr "Show Day"
+
+#: .\movie\models.py:194 .\movie\models.py:199 .\movie\models.py:237
+msgid "Show Time"
+msgstr "Show Time"
+
+#: .\movie\models.py:200
+#, fuzzy
+#| msgid "Show Time"
+msgid "Show Times"
+msgstr "Show Time"
+
+#: .\movie\models.py:215
+msgid "Row"
+msgstr "Row"
+
+#: .\movie\models.py:220
+msgid "Number"
+msgstr "Number"
+
+#: .\movie\models.py:228 .\movie\models.py:244
+msgid "Seat"
+msgstr "Seat"
+
+#: .\movie\models.py:229
+msgid "Seats"
+msgstr "Seats"
+
+#: .\movie\models.py:252
+msgid "User"
+msgstr "User"
+
+#: .\movie\models.py:256
+msgid "Is Booked"
+msgstr "Is Booked"
+
+#: .\movie\models.py:262
+msgid "Booking"
+msgstr "Booking"
+
+#: .\movie\models.py:263
+msgid "Bookings"
+msgstr "Bookings"
+
+#: .\services\models.py:9
+msgid "Flights"
+msgstr "Flights"
+
+#: .\services\models.py:10
+msgid "Buses"
+msgstr "Buses"
+
+#: .\services\models.py:11
+msgid "Cable Cars"
+msgstr "Cable Cars"
+
+#: .\services\models.py:16
+#, fuzzy
+#| msgid "Movie Name"
+msgid "Service Name"
+msgstr "Movie Name"
+
+#: .\services\models.py:20
+msgid "Service Type"
+msgstr "Service Type"
+
+#: .\services\models.py:41
+msgid "Service"
+msgstr "Service"
+
+#: .\services\models.py:42
+msgid "Services"
+msgstr "Services"

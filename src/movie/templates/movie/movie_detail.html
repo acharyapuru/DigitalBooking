@@ -1,0 +1,223 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %} {{movie.name}} {% endblock title%}
+
+{% block main %}
+ <div class="container movie-detail mt-3">
+    <h2 class="inner-header">
+        <span>Movie Detail</span>
+    </h2>
+    <div class="show-detail">
+        <div class="row">
+            <div class="col-3">
+                <img src="{{movie.thumbnail.url}}" alt="{{movie.name}}" class="img-fluid">
+            </div>
+            <div class="col-9">
+                <h2>{{movie.name}}</h2>
+                <h4>{{movie.genre}}</h4>
+                <p>{{movie.description}}</p>
+                <ul class="movie-cast">
+                    <li>
+                        <span>Director :&nbsp;</span>{{movie.director}}
+                    </li>
+                    <li>
+                        <span>Cast :&nbsp;</span>{{movie.casts}}
+                    </li>
+                    <li>
+                        <span>Release On :&nbsp;</span>{{movie.release_date}}
+                    </li>
+                    <li>
+                        <span>Duration :&nbsp;</span>{{movie.duration}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="view-time">
+        <div class="row">
+            <!-- Theater section-->
+            <div class="col-md-8 mx-4">
+                <h5>Select Theater:</h5>
+                <select class="form-select" id="theater-select">
+                    <option value="">Select Theater</option>
+                    {% for theater in theaters %}
+                        <option value="{{theater.slug}}">{{theater.name}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="selectShowDays" id="show-days-container">
+                <ul id="ulShowDays" class="ulShowDays ">
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-sm-6">
+                <ul class="ticket-status-index">
+                    <li>
+                        <span class="sold legend">&nbsp;</span>
+                        <span>Sold</span>
+                    </li>
+                    <li>
+                        <span class="booked legend">&nbsp;</span>
+                        <span>Fast Filling</span>
+                    </li>
+                    <li>
+                        <span class="available legend">&nbsp;</span>
+                        <span>Available</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <!-- Show Times Selection -->
+            <div class="col mx-4 audi-time">
+                <ul class="show-time-info" id="ulShowTimes">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Ticket Availability Legend -->
+    <div class="ticket-legend mt-4">
+        
+    </div>
+ </div>
+ <script>
+    
+    
+    const csrftoken = getCookie('csrftoken');
+
+    const isAuthenticated = {{user.is_authenticated|yesno:"true,false"}};
+    const loginUrl = '{{base_url}}/login/';
+
+    document.getElementById('theater-select').addEventListener('change', function() {
+        const theaterSlug = this.value;
+        const movieSlug = '{{movie.slug}}';
+        const fullUrl = `{{base_url}}/movie/show_days/${theaterSlug}/${movieSlug}`;
+        const showDaysContainer = document.getElementById('show-days-container');
+        const ulShowDays = document.getElementById('ulShowDays');
+
+        if (theaterSlug) {
+            // Fetch the available show days from the backend
+            fetch(fullUrl, {
+                method: 'GET',
+                headers: {
+                    'X-CSRFToken': csrftoken
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Clear the existing show days
+                ulShowDays.innerHTML = '';
+                if (data.length > 0) {
+                    // Populate the show days dynamically
+                    data.forEach((day, index) => {
+                        const li = document.createElement('li');
+
+                        let displayDay = dateFormatter(day.day);
+
+                        li.innerHTML = `<a href="#" class="show-day-link" data-day="${day.id}">${displayDay}</a>`;
+                        // Make the first show day active
+                        if (index === 0) {
+                            li.classList.add('active');
+                            getShowTimes(theaterSlug, movieSlug, day.id);
+                        }
+    
+                        ulShowDays.appendChild(li);
+                    });
+    
+                    // Show the show days section
+                    showDaysContainer.style.display = 'block';
+                } else {
+                    ulShowDays.innerHTML = '<li>No Shows Available</li>';
+                    showDaysContainer.style.display = 'block'; // Show the message even if no shows are available
+                }
+    
+                // Add event listeners to dynamically update the active class
+                const showDayLinks = document.querySelectorAll('.show-day-link');
+                showDayLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+    
+                        // Remove 'active' class from all <li> elements
+                        document.querySelectorAll('#ulShowDays li').forEach(li => li.classList.remove('active'));
+    
+                        // Add 'active' class to the clicked <li> (parent of <a>)
+                        this.parentElement.classList.add('active');
+
+                        const showDayId = this.getAttribute('data-day');
+                        if (showDayId) {
+                            getShowTimes(theaterSlug, movieSlug, showDayId);
+                        }
+                    });
+                });
+            })
+        } else {
+            // Hide the show days section if no theater is selected
+            showDaysContainer.style.display = 'none';
+        }
+    });
+
+    function getShowTimes(theaterSlug, movieSlug, showDayId){
+        const ulShowTimes = document.getElementById('ulShowTimes');
+        const showTimeUrl = `{{base_url}}/movie/get_show_times/${showDayId}/`;
+        fetch(showTimeUrl, {
+            method: 'GET',
+            headers: {
+                'X-CSRFToken': csrftoken
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            ulShowTimes.innerHTML = '';
+            if (data.length > 0) {
+                data.forEach(showTime => {
+                    const li = document.createElement('li');
+                    let url_booking = `{{base_url}}/movie/${movieSlug}/${theaterSlug}/tickets/${showTime.id}/`;
+
+                    li.innerHTML = `<a href='${url_booking}'  class="${showTime.status}" onclick="checkAuthentication(event, '${url_booking}')">${showTime.time}</a>`;
+                    ulShowTimes.appendChild(li);
+                });
+            } else {
+                ulShowTimes.innerHTML = '<li>No Show Times Available</li>';
+            }
+        })
+    }
+    function dateFormatter(date){
+        const now = new Date();
+        const showDate = new Date(date);
+
+        let today = `${now.getDate()} ${now.getMonth()}`
+        let tomorrow = `${now.getDate() + 1} ${now.getMonth()}`
+        let show_date = `${showDate.getDate()} ${showDate.getMonth()}`
+
+        if(show_date === today){
+            return 'Today';
+        }
+        else if (show_date === tomorrow){
+            return 'Tomm';
+        }
+        else{
+            const options = { day: 'numeric', month: 'short' };
+            d = showDate.toLocaleDateString('en-US', options);
+            console.log(d);
+            return d;
+        }
+    }
+
+    function checkAuthentication(event, url_booking){
+        if(!isAuthenticated){
+            event.preventDefault();
+            window.location.href = `${loginUrl}?next=${encodeURIComponent(url_booking)}`;
+        } else {
+            window.location.href = url_booking;
+        }
+    }
+ </script>
+{% endblock main %}
+
+

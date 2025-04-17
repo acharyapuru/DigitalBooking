@@ -11,26 +11,33 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import environ
+import os
+from django.utils.translation import gettext_lazy as _
+from django.contrib.messages import constants as messages
+from celery.schedules import crontab
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
+env = environ.Env()
+environ.Env.read_env(BASE_DIR / '.env' )
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-!aq)jr06th%o-e5id%&t8_t512l*b82#2@(viaudr5%rc7r&7n'
+SECRET_KEY = env.str('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env.bool('DEBUG', default=False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
-
+#region Applications
 # Application definition
-
-INSTALLED_APPS = [
+DEFAULT_APPS = [
+    'daphne',
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,22 +46,43 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+THIRD_PARTY_APPS = [
+    'corsheaders',
+    'celery',
+    'django_celery_results',
+]
+
+CUSTOM_APPS = [
+    'services',
+    'movie',
+    'user',
+    'payment',
+    'offer',
+]
+INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + CUSTOM_APPS
+#endregion
+
+
+#region Middleware
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+#endregion
 
 ROOT_URLCONF = 'DigitalBooking.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -67,9 +95,10 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DigitalBooking.wsgi.application'
+#WSGI_APPLICATION = 'DigitalBooking.wsgi.application'
+ASGI_APPLICATION = 'DigitalBooking.asgi.application'
 
-
+#region Database
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
@@ -79,7 +108,10 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+ATOMIC_REQUESTS = True
+#endregion
 
+AUTH_USER_MODEL = 'user.User'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -105,19 +137,205 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kathmandu'
 
 USE_I18N = True
 
+USE_L10N = True
+
 USE_TZ = True
+
+LANGUAGES = [
+    ('en', _('English')),
+    ('ne', _('Nepali')),
+    ('hi', _('Hindi')),
+]
+
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
+]
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = env.str("STATIC_URL")
+STATICFILES_DIRS = [
+    BASE_DIR / env.str("STATICFILES_DIRS"),
+]
+STATIC_ROOT = BASE_DIR / env.str("STATIC_ROOT")
+
+MEDIA_URL = env.str("MEDIA_URL")
+MEDIA_ROOT = BASE_DIR / env.str("MEDIA_ROOT")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+#region Jazzmin
+JAZZMIN_SETTINGS = {
+    # title of the window (Will default to current_admin_site.site_title if absent or None)
+    "site_title": "Digital Booking Admin",
+
+    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
+    "site_header": "Digital Booking Admin",
+
+    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
+    "site_brand": "Digital Booking",
+
+    # Logo to use for your site, must be present in static files, used for brand on top left
+    "site_logo": None,
+
+    # Logo to use for your site, must be present in static files, used for login form logo (defaults to site_logo)
+    "login_logo": None,
+
+    # Logo to use for login form in dark themes (defaults to login_logo)
+    "login_logo_dark": None,
+
+    # CSS classes that are applied to the logo above
+    "site_logo_classes": "img-circle",
+
+    # Relative path to a favicon for your site, will default to site_logo if absent (ideally 32x32 px)
+    "site_icon": None,
+
+    # Welcome text on the login screen
+    "welcome_sign": "Welcome to the Digital Booking Admin",
+
+    # Copyright on the footer
+    "copyright": "Digital Booking Ltd",
+
+    
+
+    # List of apps (and/or models) to base side menu ordering off of (does not need to contain all apps/models)
+    "order_with_respect_to": ["auth",],
+
+   
+
+    # Custom icons for side menu apps/models See https://fontawesome.com/icons?d=gallery&m=free&v=5.0.0,5.0.1,5.0.10,5.0.11,5.0.12,5.0.13,5.0.2,5.0.3,5.0.4,5.0.5,5.0.6,5.0.7,5.0.8,5.0.9,5.1.0,5.1.1,5.2.0,5.3.0,5.3.1,5.4.0,5.4.1,5.4.2,5.13.0,5.12.0,5.11.2,5.11.1,5.10.0,5.9.0,5.8.2,5.8.1,5.7.2,5.7.1,5.7.0,5.6.3,5.5.0,5.4.2
+    # for the full list of 5.13.0 free icon classes
+    "icons": {
+        "auth": "fas fa-users-cog",
+        "auth.user": "fas fa-user",
+        "auth.Group": "fas fa-users",
+    },
+    # Icons that are used when one is not manually specified
+    "default_icon_parents": "fas fa-chevron-circle-right",
+    "default_icon_children": "fas fa-circle",
+
+    # Add a language dropdown into the admin
+    "language_chooser": True,
+}
+
+JAZZMIN_UI_TWEAKS = {
+    "theme": "lux",
+}
+#endregion
+
+CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS')
+BASE_URL = env.str('BASE_URL')
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'info_file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs/info.log',
+            'formatter': 'app',
+        },
+        'error_file': {
+            'level': 'ERROR',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs/error.log',
+            'formatter': 'app',
+        },
+        'warning_file': {
+            'level': 'WARNING',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs/warning.log',
+            'formatter': 'app',
+        },
+        'critical_file': {
+            'level': 'CRITICAL',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs/critical.log',
+            'formatter': 'app',
+        }
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['info_file'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+        'critical_logger': {
+            'handlers': ['critical_file'],
+            'level': 'CRITICAL',
+            'propagate': False,
+        },
+        'error_logger': {
+            'handlers': ['error_file'],
+            'level': 'ERROR',
+            'propagate': False,
+        },
+        'warning_logger': {
+            'handlers': ['warning_file'],
+            'level': 'WARNING',
+            'propagate': False,
+        }
+    },
+    'formatters': {
+        'app': {
+            'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        }
+    },
+}
+
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts' : [("127.0.0.1", 6379)],
+        }
+    }
+}
+
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger'
+}
+
+#region Celery
+
+CELERY_BROKER_URL = env.str('CELERY_BROKER_URL')
+CELERY_RESULT_BACKEND = env.str('CELERY_RESULT_BACKEND')
+CELERY_TIMEZONE = 'Asia/Kathmandu'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+
+CELERY_BEAT_SCHEDULE = {
+    'delete_old_show_days': {
+        'task': 'movie.tasks.delete_old_show_days',
+        'schedule': crontab(hour=0, minute=0),
+    },
+    'delete_old_show_times': {
+        'task': 'movie.tasks.delete_old_show_times',
+        'schedule': crontab(hour=0, minute=0),
+    },
+    'release-expired-locks-every-1-minutes': {
+        'task': 'movie.tasks.release_expired_locks',
+        'schedule': crontab(minute='*/1'),
+    }
+}
+
+#endregion
+
+KHALTI_INIT_URL = env.str('KHALTI_INIT_URL')
+KHALTI_RETURN_URL = env.str('KHALTI_RETURN_URL')
+KHALTI_LIVE_SECRET_KEY = env.str('KHALTI_LIVE_SECRET_KEY')
+KHALTI_VERIFY_URL= env.str('KHALTI_VERIFY_URL')
